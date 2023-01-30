@@ -18,11 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        UIFont.loadMyFonts // If u want to use default font -> Roboto Family
+        
+        // If u want to use default font -> Roboto Family
+        UIFont.loadMyFonts
         
         //If you want to load your own Font
-        //Use PostScript Name as font Family name.
-        //Make sure file extension is correct
         UIFont.loadFontWithName(name: "NeutraDisp-Titling", ofType: "otf", identifier: Bundle.main.bundleIdentifier)
         return true
     }

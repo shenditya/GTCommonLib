@@ -27,6 +27,9 @@ extension UIFont {
         
     }
     
+    ///Use PostScript Name as font Family name.
+    ///Make sure file extension is correct (ttf, otf)
+    ///name: "Roboto-Bold", ofType: "ttf", identifier: Bundle.main.bundleIdentifier
     public static func loadFontWithName(name: String, ofType: String, identifier: String? ) {
         if let identifier {
             let bundle = Bundle(identifier: identifier)
@@ -43,11 +46,15 @@ extension UIFont {
                 NSLog("Font \(name) Not Found - Please add font file to your project")
             }
         }else{
-            NSLog("Bundle Identifier \(identifier) Not Found")
+            NSLog("Bundle Identifier \(String(describing: identifier)) Not Found")
         }
 
     }
     
+    ///Font 1: "Roboto-Bold"
+    ///Font 1: "Roboto-Light"
+    ///Font 1: Roboto-Medium"
+    ///Font 1: "Roboto-Regular"
     public static let loadMyFonts: () = {
         loadFontWith(name: "Roboto-Bold")
         loadFontWith(name: "Roboto-Light")
