@@ -1,0 +1,16 @@
+PODS:
+  - GTEPCommonLib (1.0.5)
+
+DEPENDENCIES:
+  - GTEPCommonLib (from `../`)
+
+EXTERNAL SOURCES:
+  GTEPCommonLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GTEPCommonLib: 132c574e04556c322229d6da05a9b2738c01276e
+
+PODFILE CHECKSUM: 30f5853bb4e1efb7f7284e8635c0c450a6eb5d38
+
+COCOAPODS: 1.11.3

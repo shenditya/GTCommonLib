@@ -1,0 +1,6 @@
+framework module GTEPCommonLib {
+  umbrella header "GTEPCommonLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

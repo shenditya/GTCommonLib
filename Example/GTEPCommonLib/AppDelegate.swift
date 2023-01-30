@@ -6,7 +6,9 @@
 //  Copyright (c) 2023 shenditya. All rights reserved.
 //
 
+
 import UIKit
+import GTEPCommonLib
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,8 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        UIFont.loadMyFonts // If u want to use default font -> Roboto Family
+        
+        //If you want to load your own Font
+        //Use PostScript Name as font Family name.
+        //Make sure file extension is correct
+        UIFont.loadFontWithName(name: "NeutraDisp-Titling", ofType: "otf", identifier: Bundle.main.bundleIdentifier)
         return true
     }
 

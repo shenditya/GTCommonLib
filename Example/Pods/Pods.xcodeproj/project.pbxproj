@@ -1,0 +1,904 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0450C78BE7230B59EC184DC9CAE09212 /* CustomMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2F1C05B57FC8BA599558BC550AD780 /* CustomMargin.swift */; };
+		0634106B268DCB2BDF593E5F8BB09C4B /* AppUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E1088B8A3EC52CCF93D69252732F59 /* AppUIColor.swift */; };
+		0D22126A7D93484291931F65D3CDC548 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3418E56FF466CD3208999DC16113F6B8 /* CustomButton.swift */; };
+		0D9D5285D5991BDC467981F735E6AFB8 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B36D2C45DBDE73B39A9CF8C44EEEC8 /* Bundle+Extension.swift */; };
+		106FB8EA8EAB1D4D5EB9C9F8D7154E19 /* Struct+RandomLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF95FFD5807ECF7B505E9EF1DB62D445 /* Struct+RandomLocation.swift */; };
+		171FD9BB9F6AA8546C8678F5E5B87574 /* UITextfield+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41782B8FD49AF4381D57D4E261F1EE8 /* UITextfield+String.swift */; };
+		20B2B117212A8D7F22421BFDC16AAF15 /* GTEPCommonLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3040876FF5A680DEA70CF0EB5C53CC /* GTEPCommonLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		215F282C0B442FD7B47A507B3AF07910 /* InteractivePopRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3D125EEE3CBAF22F44FBB6BD12CEE2 /* InteractivePopRecognizer.swift */; };
+		21C454CA1AD542922C863255245CB4BB /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1061F27D8CA3CF9E3FC94B435A6C7803 /* CustomTextView.swift */; };
+		2C54A2FB5C89035C835A01A27F286770 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE233406DFD8E3FC2216D30E11277B4 /* DatePickerDialog.swift */; };
+		394608DE87F525A27C22E28294FD59CA /* CustomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D47C710F645B54B96F064A9D9BB084E /* CustomImage.swift */; };
+		41871C40B905A8201FCA0F2F6FDE44EB /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888924B23FB0CD01202A62051ABC62D9 /* UIViewController+Extension.swift */; };
+		4AB40C20D036CB8611CE5F7BC1FE3296 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5EB89697D5D0C113485051B401E85956 /* CustomGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D584F1F284021E74A77B74A290B049 /* CustomGradientView.swift */; };
+		6449AFCF2987783C0087CB9B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6449AFCE2987783C0087CB9B /* Roboto-Bold.ttf */; };
+		6496424C2987706E000ED806 /* FontsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496424B2987706E000ED806 /* FontsManager.swift */; };
+		6496425229877078000ED806 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6496424E29877078000ED806 /* Roboto-Medium.ttf */; };
+		6496425329877078000ED806 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6496424F29877078000ED806 /* Roboto-Light.ttf */; };
+		6496425429877078000ED806 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6496425029877078000ED806 /* Roboto-Regular.ttf */; };
+		65DF9A055AD8A202FC75A781517511F1 /* Common+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C8155EB5C24D28F39A175199153880 /* Common+Extension.swift */; };
+		6F59D5DC846AE8DB320FDCB378C6963E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8132F34EACBED355BD8036979229D0FE /* Pods-GTEPCommonLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E047500CAA0D1BD6F60E0F23E3C640B /* Pods-GTEPCommonLib_Tests-dummy.m */; };
+		8297AB3DAAD9E29E16CC7BFAAC389F38 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39CFF5DEF4268FEA80CA52246A8ACFD /* UINavigationController+Extension.swift */; };
+		932227691E61599E4176463886BF12EF /* String+CommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9164223ED1080A91013906E85544E3DE /* String+CommonCrypto.swift */; };
+		95B00F3B1581BD708E52DDFE3FE02044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A4E2F3BD47EE70363B1FAC1B7890D5B6 /* Pods-GTEPCommonLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19139677401198047CD387665364238F /* Pods-GTEPCommonLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B15CBC4034C836E0F6FC40C0B7B5DAD6 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D489769EE15580544C5EF4B63F2349DF /* CustomView.swift */; };
+		B30C17E4B9C78C87BB1D747E65ACE28B /* CustomCameraSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2644FAEB577E5662524BE0BE50166859 /* CustomCameraSquareView.swift */; };
+		B356F323B60E11BD5A52C8F91DA2B4F1 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14031054DBE8699378016A16DF73FD8E /* CustomTextField.swift */; };
+		BA08CF716E57145A59FBE1260FF7F923 /* CustomInitialImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B620582DFD2A6C1598B2BC1BC761F04D /* CustomInitialImageView.swift */; };
+		BD79F36F76B1F68C7076D2BCADDCEB59 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD6C1BDF730757468F7418139D46817 /* Date+Extension.swift */; };
+		C38D54A9B13C91F9122F911D55F08C3C /* UIDevice+UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E2C289216D16E628ED0CD9585A6DDB /* UIDevice+UIScreen.swift */; };
+		C63345B6C2564FA5FFD30E606ED9EE51 /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EE9CF2587C06E06EC54DE57C4BFA764 /* Checkbox.swift */; };
+		D2195638DD1C9333629D3E39851A7699 /* CustomTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6B8D21028DF3A883965F683698C712 /* CustomTabbarView.swift */; };
+		DD3F822F8BD22F955FE0C1BB760B6CC6 /* Pods-GTEPCommonLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 673633A5A3D1B9A2CAE0283B4ADE83FA /* Pods-GTEPCommonLib_Example-dummy.m */; };
+		DE0B9B51DA1FDE16D8B893817D51E276 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8853439BBAF0A4CB9082BF0D94D7A2F /* CustomLabel.swift */; };
+		DF9D5FD686C3BF1FFEB2C4A5492699A6 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1068CBDC6344D95D3D5F7C094F316536 /* String+Extension.swift */; };
+		EAC3D8B823765047D22AC94601E74E17 /* GTEPCommonLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8262736FED32FFBCBD7B6A303A2AEAA9 /* GTEPCommonLib-dummy.m */; };
+		F1F9D62F4CF0831D4C27FEA42C2762FF /* Pods-GTEPCommonLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C928240A3E67BE35984AE0B47DF6C4E /* Pods-GTEPCommonLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F39B4DF43A9FE9A5369147AA2CA8A06F /* UIColor+HexRGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4D40728B1DDBE0B4D479FDB4AE3CB /* UIColor+HexRGB.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D02A588A3962E4BB612723A2D8CA60C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E76C8D368F7496C8AA756068D8372A5F;
+			remoteInfo = GTEPCommonLib;
+		};
+		FFFCF50331CC4544DC0C7C7832D3C197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C5031A616ED461CB5A0C0F3E064C18A;
+			remoteInfo = "Pods-GTEPCommonLib_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A70ECDD8EC307F6BE9BF28E5187AB6 /* Pods-GTEPCommonLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTEPCommonLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0EF914802895BDD3AE489A68F442D50E /* GTEPCommonLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTEPCommonLib.debug.xcconfig; sourceTree = "<group>"; };
+		1061F27D8CA3CF9E3FC94B435A6C7803 /* CustomTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTextView.swift; path = GTEPCommonLib/Classes/CustomTextView.swift; sourceTree = "<group>"; };
+		1068CBDC6344D95D3D5F7C094F316536 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "GTEPCommonLib/Classes/String+Extension.swift"; sourceTree = "<group>"; };
+		14031054DBE8699378016A16DF73FD8E /* CustomTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTextField.swift; path = GTEPCommonLib/Classes/CustomTextField.swift; sourceTree = "<group>"; };
+		1544A4A9CBDCD736BA7850C7EF3CAB30 /* GTEPCommonLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTEPCommonLib-prefix.pch"; sourceTree = "<group>"; };
+		19139677401198047CD387665364238F /* Pods-GTEPCommonLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTEPCommonLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		196B85913925A35092D5E7B6FC0DC073 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1E047500CAA0D1BD6F60E0F23E3C640B /* Pods-GTEPCommonLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTEPCommonLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		2551AAC05101E6643803C3F26A244232 /* Pods-GTEPCommonLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTEPCommonLib_Example-Info.plist"; sourceTree = "<group>"; };
+		2644FAEB577E5662524BE0BE50166859 /* CustomCameraSquareView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomCameraSquareView.swift; path = GTEPCommonLib/Classes/CustomCameraSquareView.swift; sourceTree = "<group>"; };
+		2F0EEF6AD4FD7075817C3782995CC86B /* Pods-GTEPCommonLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTEPCommonLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F17666FBB2DF36D6971AFD211BBA655 /* GTEPCommonLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GTEPCommonLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2FE233406DFD8E3FC2216D30E11277B4 /* DatePickerDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerDialog.swift; path = GTEPCommonLib/Classes/DatePickerDialog.swift; sourceTree = "<group>"; };
+		3418E56FF466CD3208999DC16113F6B8 /* CustomButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomButton.swift; path = GTEPCommonLib/Classes/CustomButton.swift; sourceTree = "<group>"; };
+		364B112329D35E0D19E4AE55151CB394 /* Pods-GTEPCommonLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GTEPCommonLib_Example.modulemap"; sourceTree = "<group>"; };
+		39C8155EB5C24D28F39A175199153880 /* Common+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Common+Extension.swift"; path = "GTEPCommonLib/Classes/Common+Extension.swift"; sourceTree = "<group>"; };
+		3B609C860E2FAA7693BA215E87D33934 /* Pods-GTEPCommonLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTEPCommonLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		42B4D40728B1DDBE0B4D479FDB4AE3CB /* UIColor+HexRGB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+HexRGB.swift"; path = "GTEPCommonLib/Classes/UIColor+HexRGB.swift"; sourceTree = "<group>"; };
+		43E1088B8A3EC52CCF93D69252732F59 /* AppUIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppUIColor.swift; path = GTEPCommonLib/Classes/AppUIColor.swift; sourceTree = "<group>"; };
+		4C928240A3E67BE35984AE0B47DF6C4E /* Pods-GTEPCommonLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTEPCommonLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4D47C710F645B54B96F064A9D9BB084E /* CustomImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomImage.swift; path = GTEPCommonLib/Classes/CustomImage.swift; sourceTree = "<group>"; };
+		52B36D2C45DBDE73B39A9CF8C44EEEC8 /* Bundle+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Extension.swift"; path = "GTEPCommonLib/Classes/Bundle+Extension.swift"; sourceTree = "<group>"; };
+		539338369CAD90C50125CCC03BC62A8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5B8B3D2CEB1B9843C20D089AC3114CDE /* Pods-GTEPCommonLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTEPCommonLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		6449AFCE2987783C0087CB9B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		6496424B2987706E000ED806 /* FontsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FontsManager.swift; path = GTEPCommonLib/Classes/FontsManager.swift; sourceTree = "<group>"; };
+		6496424E29877078000ED806 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		6496424F29877078000ED806 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		6496425029877078000ED806 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		673633A5A3D1B9A2CAE0283B4ADE83FA /* Pods-GTEPCommonLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTEPCommonLib_Example-dummy.m"; sourceTree = "<group>"; };
+		6B2F1C05B57FC8BA599558BC550AD780 /* CustomMargin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomMargin.swift; path = GTEPCommonLib/Classes/CustomMargin.swift; sourceTree = "<group>"; };
+		6EE9CF2587C06E06EC54DE57C4BFA764 /* Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Checkbox.swift; path = GTEPCommonLib/Classes/Checkbox.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76E2C289216D16E628ED0CD9585A6DDB /* UIDevice+UIScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+UIScreen.swift"; path = "GTEPCommonLib/Classes/UIDevice+UIScreen.swift"; sourceTree = "<group>"; };
+		7C6B8D21028DF3A883965F683698C712 /* CustomTabbarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTabbarView.swift; path = GTEPCommonLib/Classes/CustomTabbarView.swift; sourceTree = "<group>"; };
+		7FD6C1BDF730757468F7418139D46817 /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Extension.swift"; path = "GTEPCommonLib/Classes/Date+Extension.swift"; sourceTree = "<group>"; };
+		7FEA31FC0BDB36F604F02339AB696204 /* Pods-GTEPCommonLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTEPCommonLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8262736FED32FFBCBD7B6A303A2AEAA9 /* GTEPCommonLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTEPCommonLib-dummy.m"; sourceTree = "<group>"; };
+		888924B23FB0CD01202A62051ABC62D9 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extension.swift"; path = "GTEPCommonLib/Classes/UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		9164223ED1080A91013906E85544E3DE /* String+CommonCrypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+CommonCrypto.swift"; path = "GTEPCommonLib/Classes/String+CommonCrypto.swift"; sourceTree = "<group>"; };
+		9BA4038A32BD23F38C720E9D73F1F223 /* GTEPCommonLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTEPCommonLib.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1FFAF521B677129B97359023D2C9504 /* GTEPCommonLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTEPCommonLib; path = GTEPCommonLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A42C3328E5BC93B54C0B7019377038D5 /* GTEPCommonLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GTEPCommonLib-Info.plist"; sourceTree = "<group>"; };
+		A875FC3BCD16D6E0B95FDC58DF979DE1 /* Pods-GTEPCommonLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GTEPCommonLib_Tests.modulemap"; sourceTree = "<group>"; };
+		B42E4934E78A18EF63717F6B0F68B9B8 /* Pods-GTEPCommonLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTEPCommonLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B620582DFD2A6C1598B2BC1BC761F04D /* CustomInitialImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomInitialImageView.swift; path = GTEPCommonLib/Classes/CustomInitialImageView.swift; sourceTree = "<group>"; };
+		B7B3CB9A79CC8FA098A6936A0F0DC940 /* GTEPCommonLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTEPCommonLib.release.xcconfig; sourceTree = "<group>"; };
+		B8853439BBAF0A4CB9082BF0D94D7A2F /* CustomLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomLabel.swift; path = GTEPCommonLib/Classes/CustomLabel.swift; sourceTree = "<group>"; };
+		BF95FFD5807ECF7B505E9EF1DB62D445 /* Struct+RandomLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Struct+RandomLocation.swift"; path = "GTEPCommonLib/Classes/Struct+RandomLocation.swift"; sourceTree = "<group>"; };
+		C41782B8FD49AF4381D57D4E261F1EE8 /* UITextfield+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextfield+String.swift"; path = "GTEPCommonLib/Classes/UITextfield+String.swift"; sourceTree = "<group>"; };
+		C43F712C6E10BF88B3A872C65F638444 /* Pods-GTEPCommonLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTEPCommonLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CA3040876FF5A680DEA70CF0EB5C53CC /* GTEPCommonLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTEPCommonLib-umbrella.h"; sourceTree = "<group>"; };
+		D1D584F1F284021E74A77B74A290B049 /* CustomGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomGradientView.swift; path = GTEPCommonLib/Classes/CustomGradientView.swift; sourceTree = "<group>"; };
+		D489769EE15580544C5EF4B63F2349DF /* CustomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomView.swift; path = GTEPCommonLib/Classes/CustomView.swift; sourceTree = "<group>"; };
+		D84B78EA5D36D3F1AB0D801DA0AE3B43 /* Pods-GTEPCommonLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTEPCommonLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD3D125EEE3CBAF22F44FBB6BD12CEE2 /* InteractivePopRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractivePopRecognizer.swift; path = GTEPCommonLib/Classes/InteractivePopRecognizer.swift; sourceTree = "<group>"; };
+		E39CFF5DEF4268FEA80CA52246A8ACFD /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationController+Extension.swift"; path = "GTEPCommonLib/Classes/UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		EC61682A16157C5011B682263C3F8AD6 /* Pods-GTEPCommonLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GTEPCommonLib_Tests"; path = Pods_GTEPCommonLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19F080D995631A19F50A393D4C5CC45 /* Pods-GTEPCommonLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTEPCommonLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F3E3447C11E111BADC22E1BF03F0A7EA /* Pods-GTEPCommonLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GTEPCommonLib_Example"; path = Pods_GTEPCommonLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5CEBD3FA54B132F6301181AF665345 /* Pods-GTEPCommonLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTEPCommonLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E65F26D060999CA4675A1F2099D64DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB40C20D036CB8611CE5F7BC1FE3296 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6466AAA3482C26CE59E0975BC431E831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B00F3B1581BD708E52DDFE3FE02044 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C532939E6C4D20EC2840C245E0A861CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F59D5DC846AE8DB320FDCB378C6963E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4003518B465F5AE0CD1FD1916FF74209 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2F17666FBB2DF36D6971AFD211BBA655 /* GTEPCommonLib.podspec */,
+				196B85913925A35092D5E7B6FC0DC073 /* LICENSE */,
+				539338369CAD90C50125CCC03BC62A8B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		616DAE9FAD269AEDE43DBE4B13703524 /* Pods-GTEPCommonLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				364B112329D35E0D19E4AE55151CB394 /* Pods-GTEPCommonLib_Example.modulemap */,
+				F19F080D995631A19F50A393D4C5CC45 /* Pods-GTEPCommonLib_Example-acknowledgements.markdown */,
+				03A70ECDD8EC307F6BE9BF28E5187AB6 /* Pods-GTEPCommonLib_Example-acknowledgements.plist */,
+				673633A5A3D1B9A2CAE0283B4ADE83FA /* Pods-GTEPCommonLib_Example-dummy.m */,
+				C43F712C6E10BF88B3A872C65F638444 /* Pods-GTEPCommonLib_Example-frameworks.sh */,
+				2551AAC05101E6643803C3F26A244232 /* Pods-GTEPCommonLib_Example-Info.plist */,
+				19139677401198047CD387665364238F /* Pods-GTEPCommonLib_Example-umbrella.h */,
+				7FEA31FC0BDB36F604F02339AB696204 /* Pods-GTEPCommonLib_Example.debug.xcconfig */,
+				B42E4934E78A18EF63717F6B0F68B9B8 /* Pods-GTEPCommonLib_Example.release.xcconfig */,
+			);
+			name = "Pods-GTEPCommonLib_Example";
+			path = "Target Support Files/Pods-GTEPCommonLib_Example";
+			sourceTree = "<group>";
+		};
+		6496424D29877078000ED806 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6449AFCE2987783C0087CB9B /* Roboto-Bold.ttf */,
+				6496424E29877078000ED806 /* Roboto-Medium.ttf */,
+				6496424F29877078000ED806 /* Roboto-Light.ttf */,
+				6496425029877078000ED806 /* Roboto-Regular.ttf */,
+			);
+			name = fonts;
+			path = GTEPCommonLib/Assets/fonts;
+			sourceTree = "<group>";
+		};
+		6C4EC92FF924322B2BED9583399B74C5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8E6AC7992701410F41ADDC429D54527 /* GTEPCommonLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8DCB8FC1CD2DB8F5F058AD57957684A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1FFAF521B677129B97359023D2C9504 /* GTEPCommonLib */,
+				F3E3447C11E111BADC22E1BF03F0A7EA /* Pods-GTEPCommonLib_Example */,
+				EC61682A16157C5011B682263C3F8AD6 /* Pods-GTEPCommonLib_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB3877CCC0D11E8BB8799BB1F94807DC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				616DAE9FAD269AEDE43DBE4B13703524 /* Pods-GTEPCommonLib_Example */,
+				E5F4CB6AFD789E480AA72D4907D2261C /* Pods-GTEPCommonLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B8E6AC7992701410F41ADDC429D54527 /* GTEPCommonLib */ = {
+			isa = PBXGroup;
+			children = (
+				6496424D29877078000ED806 /* fonts */,
+				43E1088B8A3EC52CCF93D69252732F59 /* AppUIColor.swift */,
+				52B36D2C45DBDE73B39A9CF8C44EEEC8 /* Bundle+Extension.swift */,
+				6EE9CF2587C06E06EC54DE57C4BFA764 /* Checkbox.swift */,
+				6496424B2987706E000ED806 /* FontsManager.swift */,
+				39C8155EB5C24D28F39A175199153880 /* Common+Extension.swift */,
+				3418E56FF466CD3208999DC16113F6B8 /* CustomButton.swift */,
+				2644FAEB577E5662524BE0BE50166859 /* CustomCameraSquareView.swift */,
+				D1D584F1F284021E74A77B74A290B049 /* CustomGradientView.swift */,
+				4D47C710F645B54B96F064A9D9BB084E /* CustomImage.swift */,
+				B620582DFD2A6C1598B2BC1BC761F04D /* CustomInitialImageView.swift */,
+				B8853439BBAF0A4CB9082BF0D94D7A2F /* CustomLabel.swift */,
+				6B2F1C05B57FC8BA599558BC550AD780 /* CustomMargin.swift */,
+				7C6B8D21028DF3A883965F683698C712 /* CustomTabbarView.swift */,
+				14031054DBE8699378016A16DF73FD8E /* CustomTextField.swift */,
+				1061F27D8CA3CF9E3FC94B435A6C7803 /* CustomTextView.swift */,
+				D489769EE15580544C5EF4B63F2349DF /* CustomView.swift */,
+				7FD6C1BDF730757468F7418139D46817 /* Date+Extension.swift */,
+				2FE233406DFD8E3FC2216D30E11277B4 /* DatePickerDialog.swift */,
+				DD3D125EEE3CBAF22F44FBB6BD12CEE2 /* InteractivePopRecognizer.swift */,
+				9164223ED1080A91013906E85544E3DE /* String+CommonCrypto.swift */,
+				1068CBDC6344D95D3D5F7C094F316536 /* String+Extension.swift */,
+				BF95FFD5807ECF7B505E9EF1DB62D445 /* Struct+RandomLocation.swift */,
+				42B4D40728B1DDBE0B4D479FDB4AE3CB /* UIColor+HexRGB.swift */,
+				76E2C289216D16E628ED0CD9585A6DDB /* UIDevice+UIScreen.swift */,
+				E39CFF5DEF4268FEA80CA52246A8ACFD /* UINavigationController+Extension.swift */,
+				C41782B8FD49AF4381D57D4E261F1EE8 /* UITextfield+String.swift */,
+				888924B23FB0CD01202A62051ABC62D9 /* UIViewController+Extension.swift */,
+				4003518B465F5AE0CD1FD1916FF74209 /* Pod */,
+				DDF13603429A279B1F34F865A87B1E1E /* Support Files */,
+			);
+			name = GTEPCommonLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6C4EC92FF924322B2BED9583399B74C5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8DCB8FC1CD2DB8F5F058AD57957684A2 /* Products */,
+				AB3877CCC0D11E8BB8799BB1F94807DC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDF13603429A279B1F34F865A87B1E1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BA4038A32BD23F38C720E9D73F1F223 /* GTEPCommonLib.modulemap */,
+				8262736FED32FFBCBD7B6A303A2AEAA9 /* GTEPCommonLib-dummy.m */,
+				A42C3328E5BC93B54C0B7019377038D5 /* GTEPCommonLib-Info.plist */,
+				1544A4A9CBDCD736BA7850C7EF3CAB30 /* GTEPCommonLib-prefix.pch */,
+				CA3040876FF5A680DEA70CF0EB5C53CC /* GTEPCommonLib-umbrella.h */,
+				0EF914802895BDD3AE489A68F442D50E /* GTEPCommonLib.debug.xcconfig */,
+				B7B3CB9A79CC8FA098A6936A0F0DC940 /* GTEPCommonLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GTEPCommonLib";
+			sourceTree = "<group>";
+		};
+		E5F4CB6AFD789E480AA72D4907D2261C /* Pods-GTEPCommonLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A875FC3BCD16D6E0B95FDC58DF979DE1 /* Pods-GTEPCommonLib_Tests.modulemap */,
+				D84B78EA5D36D3F1AB0D801DA0AE3B43 /* Pods-GTEPCommonLib_Tests-acknowledgements.markdown */,
+				2F0EEF6AD4FD7075817C3782995CC86B /* Pods-GTEPCommonLib_Tests-acknowledgements.plist */,
+				1E047500CAA0D1BD6F60E0F23E3C640B /* Pods-GTEPCommonLib_Tests-dummy.m */,
+				5B8B3D2CEB1B9843C20D089AC3114CDE /* Pods-GTEPCommonLib_Tests-Info.plist */,
+				4C928240A3E67BE35984AE0B47DF6C4E /* Pods-GTEPCommonLib_Tests-umbrella.h */,
+				3B609C860E2FAA7693BA215E87D33934 /* Pods-GTEPCommonLib_Tests.debug.xcconfig */,
+				FA5CEBD3FA54B132F6301181AF665345 /* Pods-GTEPCommonLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-GTEPCommonLib_Tests";
+			path = "Target Support Files/Pods-GTEPCommonLib_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32D6BBDE3E0BD2D55A723DAC1B7B46F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4E2F3BD47EE70363B1FAC1B7890D5B6 /* Pods-GTEPCommonLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566CCB18B249A5ABD8B02D61CA6372F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1F9D62F4CF0831D4C27FEA42C2762FF /* Pods-GTEPCommonLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0ED4D7028A3E49FD14A2D434A4207C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20B2B117212A8D7F22421BFDC16AAF15 /* GTEPCommonLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F05312164E18678D6BA922EE7541ECE /* Pods-GTEPCommonLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0DD8B282E9DF4FFE361C60D15019D37 /* Build configuration list for PBXNativeTarget "Pods-GTEPCommonLib_Tests" */;
+			buildPhases = (
+				566CCB18B249A5ABD8B02D61CA6372F1 /* Headers */,
+				A4B3EA22CA1F8EC392E5012B720D4730 /* Sources */,
+				6466AAA3482C26CE59E0975BC431E831 /* Frameworks */,
+				9F67F9E7C3DC9AB24E0D35561B05C0E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55BEF2DC9430F09A98FFDAEE4F7CA7C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-GTEPCommonLib_Tests";
+			productName = Pods_GTEPCommonLib_Tests;
+			productReference = EC61682A16157C5011B682263C3F8AD6 /* Pods-GTEPCommonLib_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C5031A616ED461CB5A0C0F3E064C18A /* Pods-GTEPCommonLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A9304E23628A39455C9BF6BC593D97A /* Build configuration list for PBXNativeTarget "Pods-GTEPCommonLib_Example" */;
+			buildPhases = (
+				32D6BBDE3E0BD2D55A723DAC1B7B46F7 /* Headers */,
+				E877BB4C92D2FD4CC80FCF797BD2A8FB /* Sources */,
+				C532939E6C4D20EC2840C245E0A861CF /* Frameworks */,
+				993D828DB89EB14E33DDF9814534A567 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3F51AD93D9642E6166C65132238E060 /* PBXTargetDependency */,
+			);
+			name = "Pods-GTEPCommonLib_Example";
+			productName = Pods_GTEPCommonLib_Example;
+			productReference = F3E3447C11E111BADC22E1BF03F0A7EA /* Pods-GTEPCommonLib_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		E76C8D368F7496C8AA756068D8372A5F /* GTEPCommonLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEBF9C988903359C4ED90D8E6D676D0 /* Build configuration list for PBXNativeTarget "GTEPCommonLib" */;
+			buildPhases = (
+				D0ED4D7028A3E49FD14A2D434A4207C2 /* Headers */,
+				EE718714C4798634EF75A5D75007B5BD /* Sources */,
+				0E65F26D060999CA4675A1F2099D64DB /* Frameworks */,
+				F39D7C00EDAC9B05FBF554ACAFCE3A4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTEPCommonLib;
+			productName = GTEPCommonLib;
+			productReference = A1FFAF521B677129B97359023D2C9504 /* GTEPCommonLib */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8DCB8FC1CD2DB8F5F058AD57957684A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E76C8D368F7496C8AA756068D8372A5F /* GTEPCommonLib */,
+				5C5031A616ED461CB5A0C0F3E064C18A /* Pods-GTEPCommonLib_Example */,
+				3F05312164E18678D6BA922EE7541ECE /* Pods-GTEPCommonLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		993D828DB89EB14E33DDF9814534A567 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F67F9E7C3DC9AB24E0D35561B05C0E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39D7C00EDAC9B05FBF554ACAFCE3A4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6496425429877078000ED806 /* Roboto-Regular.ttf in Resources */,
+				6496425329877078000ED806 /* Roboto-Light.ttf in Resources */,
+				6449AFCF2987783C0087CB9B /* Roboto-Bold.ttf in Resources */,
+				6496425229877078000ED806 /* Roboto-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4B3EA22CA1F8EC392E5012B720D4730 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8132F34EACBED355BD8036979229D0FE /* Pods-GTEPCommonLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E877BB4C92D2FD4CC80FCF797BD2A8FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3F822F8BD22F955FE0C1BB760B6CC6 /* Pods-GTEPCommonLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE718714C4798634EF75A5D75007B5BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0634106B268DCB2BDF593E5F8BB09C4B /* AppUIColor.swift in Sources */,
+				0D9D5285D5991BDC467981F735E6AFB8 /* Bundle+Extension.swift in Sources */,
+				C63345B6C2564FA5FFD30E606ED9EE51 /* Checkbox.swift in Sources */,
+				65DF9A055AD8A202FC75A781517511F1 /* Common+Extension.swift in Sources */,
+				0D22126A7D93484291931F65D3CDC548 /* CustomButton.swift in Sources */,
+				B30C17E4B9C78C87BB1D747E65ACE28B /* CustomCameraSquareView.swift in Sources */,
+				5EB89697D5D0C113485051B401E85956 /* CustomGradientView.swift in Sources */,
+				394608DE87F525A27C22E28294FD59CA /* CustomImage.swift in Sources */,
+				BA08CF716E57145A59FBE1260FF7F923 /* CustomInitialImageView.swift in Sources */,
+				DE0B9B51DA1FDE16D8B893817D51E276 /* CustomLabel.swift in Sources */,
+				0450C78BE7230B59EC184DC9CAE09212 /* CustomMargin.swift in Sources */,
+				D2195638DD1C9333629D3E39851A7699 /* CustomTabbarView.swift in Sources */,
+				B356F323B60E11BD5A52C8F91DA2B4F1 /* CustomTextField.swift in Sources */,
+				21C454CA1AD542922C863255245CB4BB /* CustomTextView.swift in Sources */,
+				B15CBC4034C836E0F6FC40C0B7B5DAD6 /* CustomView.swift in Sources */,
+				BD79F36F76B1F68C7076D2BCADDCEB59 /* Date+Extension.swift in Sources */,
+				2C54A2FB5C89035C835A01A27F286770 /* DatePickerDialog.swift in Sources */,
+				EAC3D8B823765047D22AC94601E74E17 /* GTEPCommonLib-dummy.m in Sources */,
+				215F282C0B442FD7B47A507B3AF07910 /* InteractivePopRecognizer.swift in Sources */,
+				932227691E61599E4176463886BF12EF /* String+CommonCrypto.swift in Sources */,
+				DF9D5FD686C3BF1FFEB2C4A5492699A6 /* String+Extension.swift in Sources */,
+				106FB8EA8EAB1D4D5EB9C9F8D7154E19 /* Struct+RandomLocation.swift in Sources */,
+				F39B4DF43A9FE9A5369147AA2CA8A06F /* UIColor+HexRGB.swift in Sources */,
+				C38D54A9B13C91F9122F911D55F08C3C /* UIDevice+UIScreen.swift in Sources */,
+				8297AB3DAAD9E29E16CC7BFAAC389F38 /* UINavigationController+Extension.swift in Sources */,
+				171FD9BB9F6AA8546C8678F5E5B87574 /* UITextfield+String.swift in Sources */,
+				6496424C2987706E000ED806 /* FontsManager.swift in Sources */,
+				41871C40B905A8201FCA0F2F6FDE44EB /* UIViewController+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55BEF2DC9430F09A98FFDAEE4F7CA7C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GTEPCommonLib_Example";
+			target = 5C5031A616ED461CB5A0C0F3E064C18A /* Pods-GTEPCommonLib_Example */;
+			targetProxy = FFFCF50331CC4544DC0C7C7832D3C197 /* PBXContainerItemProxy */;
+		};
+		B3F51AD93D9642E6166C65132238E060 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GTEPCommonLib;
+			target = E76C8D368F7496C8AA756068D8372A5F /* GTEPCommonLib */;
+			targetProxy = D02A588A3962E4BB612723A2D8CA60C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0254BB64A3BF00E209AABA5EEDB8A3BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B42E4934E78A18EF63717F6B0F68B9B8 /* Pods-GTEPCommonLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTEPCommonLib_Example/Pods-GTEPCommonLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTEPCommonLib_Example/Pods-GTEPCommonLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1AE3497EDF5B403B2AAB4E84C57E14C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B3CB9A79CC8FA098A6936A0F0DC940 /* GTEPCommonLib.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTEPCommonLib/GTEPCommonLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTEPCommonLib/GTEPCommonLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTEPCommonLib/GTEPCommonLib.modulemap";
+				PRODUCT_MODULE_NAME = GTEPCommonLib;
+				PRODUCT_NAME = GTEPCommonLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1FAD48F1A494B4C7925B8FE3A284EFAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B609C860E2FAA7693BA215E87D33934 /* Pods-GTEPCommonLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTEPCommonLib_Tests/Pods-GTEPCommonLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTEPCommonLib_Tests/Pods-GTEPCommonLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C671BF16737406621F87DDA56112B53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FEA31FC0BDB36F604F02339AB696204 /* Pods-GTEPCommonLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTEPCommonLib_Example/Pods-GTEPCommonLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTEPCommonLib_Example/Pods-GTEPCommonLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B195434770AEDE549547CB82F14CC95B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA5CEBD3FA54B132F6301181AF665345 /* Pods-GTEPCommonLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GTEPCommonLib_Tests/Pods-GTEPCommonLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GTEPCommonLib_Tests/Pods-GTEPCommonLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6BBDF16B682A896593442E82F791DF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF914802895BDD3AE489A68F442D50E /* GTEPCommonLib.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GTEPCommonLib/GTEPCommonLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GTEPCommonLib/GTEPCommonLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GTEPCommonLib/GTEPCommonLib.modulemap";
+				PRODUCT_MODULE_NAME = GTEPCommonLib;
+				PRODUCT_NAME = GTEPCommonLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A9304E23628A39455C9BF6BC593D97A /* Build configuration list for PBXNativeTarget "Pods-GTEPCommonLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C671BF16737406621F87DDA56112B53 /* Debug */,
+				0254BB64A3BF00E209AABA5EEDB8A3BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0DD8B282E9DF4FFE361C60D15019D37 /* Build configuration list for PBXNativeTarget "Pods-GTEPCommonLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FAD48F1A494B4C7925B8FE3A284EFAB /* Debug */,
+				B195434770AEDE549547CB82F14CC95B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEEBF9C988903359C4ED90D8E6D676D0 /* Build configuration list for PBXNativeTarget "GTEPCommonLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6BBDF16B682A896593442E82F791DF3 /* Debug */,
+				1AE3497EDF5B403B2AAB4E84C57E14C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

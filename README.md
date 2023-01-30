@@ -1,4 +1,4 @@
-# GTEPCommonLib
+# GTCommonLib
 
 [![CI Status](https://img.shields.io/travis/shenditya/GTEPCommonLib.svg?style=flat)](https://travis-ci.org/shenditya/GTEPCommonLib)
 [![Version](https://img.shields.io/cocoapods/v/GTEPCommonLib.svg?style=flat)](https://cocoapods.org/pods/GTEPCommonLib)
@@ -13,7 +13,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-GTEPCommonLib is available through [CocoaPods](https://cocoapods.org). To install
+GTCommonLib is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
@@ -22,8 +22,8 @@ pod 'GTEPCommonLib'
 
 ## Author
 
-shenditya, shendyaditya@live.com
+Shendy Aditya S.
 
 ## License
 
-GTEPCommonLib is available under the MIT license. See the LICENSE file for more info.
+GTCommonLib is available under the MIT license. See the LICENSE file for more info.
