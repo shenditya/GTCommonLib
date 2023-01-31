@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GTEPCommonLib'
-  s.version          = '1.0.10'
+  s.version          = '1.0.11'
   s.summary          = 'In this library, it contains custom UI classes and common extensions.'
 
   s.description      = <<-DESC
@@ -22,9 +22,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.swift_version = '4.2'
   s.source_files = 'GTEPCommonLib/Classes/**/*'
-  s.resource_bundles = {
-      'GTEPCommonLib' => ['GTEPCommonLib/Assets/**/*']
-  }
-
+  s.resources = 'GTEPCommonLib/Assets/**/*'
 
 end
