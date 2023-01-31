@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GTEPCommonLib'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'In this library, it contains custom UI classes and common extensions.'
 
   s.description      = <<-DESC
