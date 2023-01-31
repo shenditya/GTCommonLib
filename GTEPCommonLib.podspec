@@ -22,5 +22,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.swift_version = '4.2'
   s.source_files = 'GTEPCommonLib/Classes/**/*'
+  s.resource_bundles = {
+      'GTEPCommonLib' => ['GTEPCommonLib/Assets/**/*']
+  }
+
 
 end
