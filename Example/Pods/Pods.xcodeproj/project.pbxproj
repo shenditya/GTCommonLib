@@ -9,11 +9,9 @@
 /* Begin PBXBuildFile section */
 		00DA46C1D0E5632BE52CD85D089B381E /* CustomInitialImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2952EF28DD9BCDDE50C7CFA4C7016A77 /* CustomInitialImageView.swift */; };
 		08BA2D41F0075D2D2515FBBBD56337C7 /* InteractivePopRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AABB5E68CDE33562F5553B7FE04D07 /* InteractivePopRecognizer.swift */; };
-		0E80EA6D362DCD32B98F3E1630699F64 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4F44E4D7199A0576ED1B435C38E7477 /* Roboto-Regular.ttf */; };
 		2C5FB91778E7590ED904A9B8AB11A91E /* UITextfield+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F083A7B62D3692D92462D804A2F0C2 /* UITextfield+String.swift */; };
 		2FA2F16D2BD110185DEB4035AE031F02 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BFB1A1AC644E0D35A99FABE05C37AD /* UINavigationController+Extension.swift */; };
 		30E7AC1EC04F98BB2C3A10FB5AFA5581 /* FontsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A762DD7D6436DC2C1FDA2E34735C4FD /* FontsManager.swift */; };
-		31F10F57DB9FAD6BF79B406A341E843A /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0656B81C04EB73D5C780132F34D8DC4 /* Roboto-Light.ttf */; };
 		3F921D66E5BC59973A1898F0467C07D4 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE2F34D9963F8186323DDD64F4A1BD /* String+Extension.swift */; };
 		49D193056477F3FC0E1F153ABA384441 /* UIDevice+UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D888E4054E67A5CE7917FB809AED5 /* UIDevice+UIScreen.swift */; };
 		4B7747BDFA83D5D482FD146FFA244B14 /* GTEPCommonLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF49BE2FF1D72E66FC8156EED2E8BF4 /* GTEPCommonLib-dummy.m */; };
@@ -24,10 +22,6 @@
 		5D1F0CE44D90CE3BB358B0B642E9170A /* CustomCameraSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62C816306FAB61CD2FBDFCAF49FBA1C /* CustomCameraSquareView.swift */; };
 		60517E8525D44CAE3C2D604EACE59C93 /* String+CommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310CA416AF3F1A6E6BB6E3540BAB63AA /* String+CommonCrypto.swift */; };
 		6137CF6BA36FD5CABFFC8838F7E68B65 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902C8F961C00C566FF740D5E280A330 /* DatePickerDialog.swift */; };
-		64F3E92C2988D8E300764887 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0656B81C04EB73D5C780132F34D8DC4 /* Roboto-Light.ttf */; };
-		64F3E92D2988D8E800764887 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D512ACED01981A640623C33CDA65ACE /* Roboto-Bold.ttf */; };
-		64F3E92E2988D8EC00764887 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AC56BA46DF5ECF8153506587BCA178B /* Roboto-Medium.ttf */; };
-		64F3E92F2988D8EF00764887 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4F44E4D7199A0576ED1B435C38E7477 /* Roboto-Regular.ttf */; };
 		6F59D5DC846AE8DB320FDCB378C6963E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		71BBD5DC57DEB55A64E33FE7562F1A8C /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEB6C498489949C993EA653A2C00A44 /* Checkbox.swift */; };
 		75E158FE9AA9AD0C2C23AAE53FBD4334 /* CustomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2869125D124D827069526F16EC8CFEE /* CustomImage.swift */; };
@@ -35,10 +29,8 @@
 		79F660F390B648D5AF458B8DDA1522B6 /* UIColor+HexRGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE490B4FC4D4852D62B6A5D2262055B7 /* UIColor+HexRGB.swift */; };
 		7BFF6176B67E762ABFCEAEC3ADBA71C3 /* CustomTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783F92DF3B037052F52F3C286E50C049 /* CustomTabbarView.swift */; };
 		8132F34EACBED355BD8036979229D0FE /* Pods-GTEPCommonLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E047500CAA0D1BD6F60E0F23E3C640B /* Pods-GTEPCommonLib_Tests-dummy.m */; };
-		8F1DCD377C3D090D80652667396148D6 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D512ACED01981A640623C33CDA65ACE /* Roboto-Bold.ttf */; };
 		95B00F3B1581BD708E52DDFE3FE02044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		962430DA33A68FF2B75B120409A0F178 /* CustomMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64BCF768AD887B4E621FAF835CE524B /* CustomMargin.swift */; };
-		9CC8A0655B1C13EA69A8BDDE0ADED317 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AC56BA46DF5ECF8153506587BCA178B /* Roboto-Medium.ttf */; };
 		A4E2F3BD47EE70363B1FAC1B7890D5B6 /* Pods-GTEPCommonLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19139677401198047CD387665364238F /* Pods-GTEPCommonLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A98D6B731C1BFA4AD272FDFACB568CDE /* AppUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4FE3F5790AF21EEF20A3302B3A516C /* AppUIColor.swift */; };
 		B0E7B6F9D98AD37FB5553E72DE1113D8 /* Common+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B61FB02D7AD60EEBDC1AE6AF232C40 /* Common+Extension.swift */; };
@@ -81,7 +73,6 @@
 /* Begin PBXFileReference section */
 		03A70ECDD8EC307F6BE9BF28E5187AB6 /* Pods-GTEPCommonLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTEPCommonLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		05BFB1A1AC644E0D35A99FABE05C37AD /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationController+Extension.swift"; path = "GTEPCommonLib/Classes/UINavigationController+Extension.swift"; sourceTree = "<group>"; };
-		0AC56BA46DF5ECF8153506587BCA178B /* Roboto-Medium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		0AF49BE2FF1D72E66FC8156EED2E8BF4 /* GTEPCommonLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTEPCommonLib-dummy.m"; sourceTree = "<group>"; };
 		0BFEEED0738DF5267A4D8E2C02ECAFF6 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extension.swift"; path = "GTEPCommonLib/Classes/UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		0EBE2F34D9963F8186323DDD64F4A1BD /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "GTEPCommonLib/Classes/String+Extension.swift"; sourceTree = "<group>"; };
@@ -115,14 +106,12 @@
 		783F92DF3B037052F52F3C286E50C049 /* CustomTabbarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTabbarView.swift; path = GTEPCommonLib/Classes/CustomTabbarView.swift; sourceTree = "<group>"; };
 		7FEA31FC0BDB36F604F02339AB696204 /* Pods-GTEPCommonLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTEPCommonLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		88AABB5E68CDE33562F5553B7FE04D07 /* InteractivePopRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractivePopRecognizer.swift; path = GTEPCommonLib/Classes/InteractivePopRecognizer.swift; sourceTree = "<group>"; };
-		8D512ACED01981A640623C33CDA65ACE /* Roboto-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		95F083A7B62D3692D92462D804A2F0C2 /* UITextfield+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextfield+String.swift"; path = "GTEPCommonLib/Classes/UITextfield+String.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1FFAF521B677129B97359023D2C9504 /* GTEPCommonLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTEPCommonLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A875FC3BCD16D6E0B95FDC58DF979DE1 /* Pods-GTEPCommonLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GTEPCommonLib_Tests.modulemap"; sourceTree = "<group>"; };
 		AC1FCCB4799FC928EDBDC185088F9E46 /* CustomLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomLabel.swift; path = GTEPCommonLib/Classes/CustomLabel.swift; sourceTree = "<group>"; };
 		AEEB6C498489949C993EA653A2C00A44 /* Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Checkbox.swift; path = GTEPCommonLib/Classes/Checkbox.swift; sourceTree = "<group>"; };
-		B0656B81C04EB73D5C780132F34D8DC4 /* Roboto-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		B2E87901F984784B4A5808D38802FE9A /* GTEPCommonLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GTEPCommonLib-Info.plist"; sourceTree = "<group>"; };
 		B42E4934E78A18EF63717F6B0F68B9B8 /* Pods-GTEPCommonLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTEPCommonLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B64BCF768AD887B4E621FAF835CE524B /* CustomMargin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomMargin.swift; path = GTEPCommonLib/Classes/CustomMargin.swift; sourceTree = "<group>"; };
@@ -139,7 +128,6 @@
 		EC61682A16157C5011B682263C3F8AD6 /* Pods-GTEPCommonLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GTEPCommonLib_Tests"; path = Pods_GTEPCommonLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19F080D995631A19F50A393D4C5CC45 /* Pods-GTEPCommonLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTEPCommonLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3E3447C11E111BADC22E1BF03F0A7EA /* Pods-GTEPCommonLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GTEPCommonLib_Example"; path = Pods_GTEPCommonLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4F44E4D7199A0576ED1B435C38E7477 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		F80015D81A21D1056DF1F268B1AB11F8 /* ResourceBundle-GTEPCommonLib-GTEPCommonLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GTEPCommonLib-GTEPCommonLib-Info.plist"; sourceTree = "<group>"; };
 		F902C8F961C00C566FF740D5E280A330 /* DatePickerDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerDialog.swift; path = GTEPCommonLib/Classes/DatePickerDialog.swift; sourceTree = "<group>"; };
 		FA5CEBD3FA54B132F6301181AF665345 /* Pods-GTEPCommonLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTEPCommonLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -279,7 +267,6 @@
 				05BFB1A1AC644E0D35A99FABE05C37AD /* UINavigationController+Extension.swift */,
 				95F083A7B62D3692D92462D804A2F0C2 /* UITextfield+String.swift */,
 				0BFEEED0738DF5267A4D8E2C02ECAFF6 /* UIViewController+Extension.swift */,
-				DA833297F9880EBD3B06E52A60B154BA /* fonts */,
 				BFE05706C8085EEE45FE84777AA59456 /* Pod */,
 				A408157AA05D9ACAC30C7E37F38366BB /* Support Files */,
 			);
@@ -304,18 +291,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DA833297F9880EBD3B06E52A60B154BA /* fonts */ = {
-			isa = PBXGroup;
-			children = (
-				8D512ACED01981A640623C33CDA65ACE /* Roboto-Bold.ttf */,
-				B0656B81C04EB73D5C780132F34D8DC4 /* Roboto-Light.ttf */,
-				0AC56BA46DF5ECF8153506587BCA178B /* Roboto-Medium.ttf */,
-				F4F44E4D7199A0576ED1B435C38E7477 /* Roboto-Regular.ttf */,
-			);
-			name = fonts;
-			path = GTEPCommonLib/Assets/fonts;
 			sourceTree = "<group>";
 		};
 		E5F4CB6AFD789E480AA72D4907D2261C /* Pods-GTEPCommonLib_Tests */ = {
@@ -484,10 +459,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F1DCD377C3D090D80652667396148D6 /* Roboto-Bold.ttf in Resources */,
-				31F10F57DB9FAD6BF79B406A341E843A /* Roboto-Light.ttf in Resources */,
-				9CC8A0655B1C13EA69A8BDDE0ADED317 /* Roboto-Medium.ttf in Resources */,
-				0E80EA6D362DCD32B98F3E1630699F64 /* Roboto-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,11 +466,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64F3E92E2988D8EC00764887 /* Roboto-Medium.ttf in Resources */,
-				64F3E92C2988D8E300764887 /* Roboto-Light.ttf in Resources */,
-				64F3E92F2988D8EF00764887 /* Roboto-Regular.ttf in Resources */,
 				C6E61C214D4629C5C4B2DAEE674D0A7A /* GTEPCommonLib-GTEPCommonLib in Resources */,
-				64F3E92D2988D8E800764887 /* Roboto-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
