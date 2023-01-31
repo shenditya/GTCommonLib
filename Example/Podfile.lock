@@ -1,5 +1,5 @@
 PODS:
-  - GTEPCommonLib (1.0.6)
+  - GTEPCommonLib (1.0.7)
 
 DEPENDENCIES:
   - GTEPCommonLib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GTEPCommonLib: 06fa4104e77430402c63828bf9f83d1d2f18bd96
+  GTEPCommonLib: f1fbb299649bdfff792257be75291f1dc7dd16f1
 
 PODFILE CHECKSUM: 0922658c1f78356966614c2f0221e45083c886d7
 
