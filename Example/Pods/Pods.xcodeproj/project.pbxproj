@@ -7,61 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00DA46C1D0E5632BE52CD85D089B381E /* CustomInitialImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2952EF28DD9BCDDE50C7CFA4C7016A77 /* CustomInitialImageView.swift */; };
-		08BA2D41F0075D2D2515FBBBD56337C7 /* InteractivePopRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AABB5E68CDE33562F5553B7FE04D07 /* InteractivePopRecognizer.swift */; };
-		2C5FB91778E7590ED904A9B8AB11A91E /* UITextfield+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F083A7B62D3692D92462D804A2F0C2 /* UITextfield+String.swift */; };
-		2FA2F16D2BD110185DEB4035AE031F02 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BFB1A1AC644E0D35A99FABE05C37AD /* UINavigationController+Extension.swift */; };
-		30E7AC1EC04F98BB2C3A10FB5AFA5581 /* FontsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A762DD7D6436DC2C1FDA2E34735C4FD /* FontsManager.swift */; };
-		3F921D66E5BC59973A1898F0467C07D4 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBE2F34D9963F8186323DDD64F4A1BD /* String+Extension.swift */; };
-		49D193056477F3FC0E1F153ABA384441 /* UIDevice+UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96D888E4054E67A5CE7917FB809AED5 /* UIDevice+UIScreen.swift */; };
-		4B7747BDFA83D5D482FD146FFA244B14 /* GTEPCommonLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF49BE2FF1D72E66FC8156EED2E8BF4 /* GTEPCommonLib-dummy.m */; };
-		4CA05B379591F90BC5602333FD482358 /* GTEPCommonLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E23AE8668EAD7C923A6E78978DDF3639 /* GTEPCommonLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F79724CF56E5D7C442D8A0C3F450C63 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BFEEED0738DF5267A4D8E2C02ECAFF6 /* UIViewController+Extension.swift */; };
-		56EB965B601393D0FE74EE9FC992A2EE /* Struct+RandomLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B0A0115CF6C24DA93DC3C3C429740 /* Struct+RandomLocation.swift */; };
-		5B1B01DEFB7CBE6D5E3708D5292C069B /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C1AFD3641F2ECAE5B258B20B96C816 /* Bundle+Extension.swift */; };
-		5D1F0CE44D90CE3BB358B0B642E9170A /* CustomCameraSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E62C816306FAB61CD2FBDFCAF49FBA1C /* CustomCameraSquareView.swift */; };
-		60517E8525D44CAE3C2D604EACE59C93 /* String+CommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310CA416AF3F1A6E6BB6E3540BAB63AA /* String+CommonCrypto.swift */; };
-		6137CF6BA36FD5CABFFC8838F7E68B65 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902C8F961C00C566FF740D5E280A330 /* DatePickerDialog.swift */; };
+		0294E97C2A8CE27AB05C59A156E8A82A /* UIDevice+UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6E557536CE26A3FB1E05CA1F43CB59 /* UIDevice+UIScreen.swift */; };
+		0825405EE89D0FB83CB421D8B959EC91 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9D9CF933AA45D97969D37C33C3AC000 /* Roboto-Light.ttf */; };
+		11DB094C3F4C7369B18545D5C26D1A93 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B113648C0B8A2D9B55F18DC0220A2 /* UIViewController+Extension.swift */; };
+		230E6038EE54E55F21ABB718DCF4C02B /* UITextfield+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E0FD71B39A4D5EE6364F0A16037EFA /* UITextfield+String.swift */; };
+		2BA77DF4F3693F98AC6BACFD7D77C0D5 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCE341A6421F6D045815BF1972BA2AB /* CustomTextField.swift */; };
+		3CEFF386AD73D8278ECE277CC7CB27B7 /* CustomMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C4187886C0E22349DF894A06D8DF23 /* CustomMargin.swift */; };
+		428B382007D32B0C3816B787345968D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		468524809FE5D55D4F2C970371A5C69D /* String+CommonCrypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA5143F914C5A243241F77338265FF8 /* String+CommonCrypto.swift */; };
+		6308AB582DE362BFB8447B014770B809 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAAF979AA562EA06A79A95C01CFC339A /* Roboto-Medium.ttf */; };
+		65909FF5D2A385A9FE8FD6E95DF2C66B /* Common+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF081B8E27982792B7C4BC8E7644526C /* Common+Extension.swift */; };
+		6CD0C629F1E3483E23EB667F271B644B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E58A666C5A45348A71FDDB3698C82EC8 /* Roboto-Bold.ttf */; };
 		6F59D5DC846AE8DB320FDCB378C6963E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		71BBD5DC57DEB55A64E33FE7562F1A8C /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEB6C498489949C993EA653A2C00A44 /* Checkbox.swift */; };
-		75E158FE9AA9AD0C2C23AAE53FBD4334 /* CustomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2869125D124D827069526F16EC8CFEE /* CustomImage.swift */; };
-		774F71B37FC4A8CD62683E9E85ABF908 /* CustomGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2C55C4F36805CF890C5B19A4FDC4F8 /* CustomGradientView.swift */; };
-		79F660F390B648D5AF458B8DDA1522B6 /* UIColor+HexRGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE490B4FC4D4852D62B6A5D2262055B7 /* UIColor+HexRGB.swift */; };
-		7BFF6176B67E762ABFCEAEC3ADBA71C3 /* CustomTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783F92DF3B037052F52F3C286E50C049 /* CustomTabbarView.swift */; };
+		707515A9F4D8FA607458B14784C43131 /* CustomInitialImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130B395239AD381AB1EACE220595B9D4 /* CustomInitialImageView.swift */; };
+		76BF545D980A0082CE35C78984586FE3 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B54F260A5AA115F26FBE248B171A2A /* CustomButton.swift */; };
+		7783A570930362CFE3DFA03271B974B6 /* CustomGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25354ED9A2A7051393FB00A1F4E7F9BF /* CustomGradientView.swift */; };
+		7EA860D81149601C5A406D465F1BE249 /* GTEPCommonLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3267B491EB3E7878A4D2A5ECDDDBA8D3 /* GTEPCommonLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8132F34EACBED355BD8036979229D0FE /* Pods-GTEPCommonLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E047500CAA0D1BD6F60E0F23E3C640B /* Pods-GTEPCommonLib_Tests-dummy.m */; };
+		81FC0E623AA6C4A52AA5CE4841791C1C /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD220287C50F198549E06825141E3B7 /* DatePickerDialog.swift */; };
+		88D9ABCBD904AC6756EF43695C54A5B8 /* GTEPCommonLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAD17D7BB072A074A2DEA2E9C1DDD6F /* GTEPCommonLib-dummy.m */; };
+		8939ACD830CDB752FB6DE4BCF9ACBC33 /* AppUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C576CD817F622C1AE42D836E1A5F57 /* AppUIColor.swift */; };
+		8B0F09EC1D45F6D3FC1ACFC4B9E52CB5 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE314F585D378877B770971F7073F500 /* CustomLabel.swift */; };
+		8D899E5B28148CB67176CDD506B4131D /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D05928CFD3F2025D11BBECE47CB6F32 /* Checkbox.swift */; };
+		8E2C50671F6C0D5ED3C3C23548CDA275 /* FontsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4864DCAE3805B483E1F38481954D0936 /* FontsManager.swift */; };
+		8EA9460114B7363508F36CAF47628FF3 /* Struct+RandomLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FC897CF25B68DB109A8D9387A7EE1 /* Struct+RandomLocation.swift */; };
 		95B00F3B1581BD708E52DDFE3FE02044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		962430DA33A68FF2B75B120409A0F178 /* CustomMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64BCF768AD887B4E621FAF835CE524B /* CustomMargin.swift */; };
+		9AC9E354A86166A208DF211E14EB18A2 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6EF9E33BE36DB4953C74D9CDE5B199 /* Bundle+Extension.swift */; };
+		A1F099AEF00CCC84A2402C6D84572186 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA4C32F38DB940E92006355E8A7CF20D /* Roboto-Regular.ttf */; };
 		A4E2F3BD47EE70363B1FAC1B7890D5B6 /* Pods-GTEPCommonLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19139677401198047CD387665364238F /* Pods-GTEPCommonLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A98D6B731C1BFA4AD272FDFACB568CDE /* AppUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4FE3F5790AF21EEF20A3302B3A516C /* AppUIColor.swift */; };
-		B0E7B6F9D98AD37FB5553E72DE1113D8 /* Common+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B61FB02D7AD60EEBDC1AE6AF232C40 /* Common+Extension.swift */; };
-		BDD2B85CA7234B7E6F1F96F75F41338A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3575333B9A5284F1E4A914297402E59C /* CustomTextField.swift */; };
-		C6E61C214D4629C5C4B2DAEE674D0A7A /* GTEPCommonLib-GTEPCommonLib in Resources */ = {isa = PBXBuildFile; fileRef = 60D69E5EA92194FE42F0C7072034F76D /* GTEPCommonLib-GTEPCommonLib */; };
-		CF16F1197B4B45FF0EEB7EAC2B434AB3 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDA69F47F5DFEEDE8AFC6B82E0F40E1 /* CustomView.swift */; };
-		D17A7BC31E730758233AD7E4F074DA8C /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC07F59A0677E10469B59B7E6EF718DD /* Date+Extension.swift */; };
-		D22708ECC9E49F3E12279C6259C576F1 /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1EF5FAD513EA9EA9676B3AE9761787 /* CustomTextView.swift */; };
+		A80C44B7270ADD41D569EF896D5C862A /* CustomTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74B7012313560976881E56D103F7619 /* CustomTabbarView.swift */; };
+		C6FC8F2B32496C10A6DE1A1B2DDBA940 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E7892266EA6081978FA94D45E79CF0 /* CustomView.swift */; };
+		CF6380BE267A809B6B6D3B39D497D026 /* CustomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE388EC3B04EDFF6BEA1718DCEBF264 /* CustomImage.swift */; };
+		D090E0EC5388752D3B0D9B4D55989EFE /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06253ED59B059DD5B549CCF2A39A8BD /* CustomTextView.swift */; };
+		D8352620FEB51743E950762A0E661256 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933DCB0F50EBD0D7A9135B8DFF10C8F8 /* Date+Extension.swift */; };
+		D8C8A531715123309167FBAF4E8AAAB0 /* CustomCameraSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47CC3B2C5B27B3B78A6C03C6F9D7194 /* CustomCameraSquareView.swift */; };
 		DD3F822F8BD22F955FE0C1BB760B6CC6 /* Pods-GTEPCommonLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 673633A5A3D1B9A2CAE0283B4ADE83FA /* Pods-GTEPCommonLib_Example-dummy.m */; };
-		ED7C9A18B8A260DC4F5CAB9638EACDA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		EF9D8DC1D9D81F7FFC109C1D4533D062 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903D97EE46C9F19789B826491C60900 /* CustomButton.swift */; };
+		E9ADCB65E3ECA7F4FCE968B40B879F57 /* InteractivePopRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B42B6745AD08D2F400C4A1946757A /* InteractivePopRecognizer.swift */; };
 		F1F9D62F4CF0831D4C27FEA42C2762FF /* Pods-GTEPCommonLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C928240A3E67BE35984AE0B47DF6C4E /* Pods-GTEPCommonLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F75E51ED3039FA3778F1AA6D8EF842F0 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1FCCB4799FC928EDBDC185088F9E46 /* CustomLabel.swift */; };
+		F26FB7EA511BC6DAD5C60FE779E0FA09 /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A128AABA4ABF1ABB05F1A310B794368D /* UINavigationController+Extension.swift */; };
+		F33D0F11A3C9CA16A93CA3F200A8ACA0 /* UIColor+HexRGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5770B3838ECC9CB08F8EE45FB29B9E3 /* UIColor+HexRGB.swift */; };
+		FA5F8CC97A1C8183890AE0FEB669A3F9 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882EF76284816DE7F840D05F4F1C1523 /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0BBC2115D951239AD417E72E3D9C76A7 /* PBXContainerItemProxy */ = {
+		50C49B0302CBC57E4949EC3666AA2880 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E76C8D368F7496C8AA756068D8372A5F;
 			remoteInfo = GTEPCommonLib;
 		};
-		1CB5C574F73D6DBC1B4173792516E029 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 572EDB54E8FADD1CEFB38E393ECC4EB0;
-			remoteInfo = "GTEPCommonLib-GTEPCommonLib";
-		};
-		416718A09BCB7A27FB62D2BA85618419 /* PBXContainerItemProxy */ = {
+		B0BAF537EF346D96F6F119C95CA8C990 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -72,81 +68,76 @@
 
 /* Begin PBXFileReference section */
 		03A70ECDD8EC307F6BE9BF28E5187AB6 /* Pods-GTEPCommonLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTEPCommonLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		05BFB1A1AC644E0D35A99FABE05C37AD /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationController+Extension.swift"; path = "GTEPCommonLib/Classes/UINavigationController+Extension.swift"; sourceTree = "<group>"; };
-		0AF49BE2FF1D72E66FC8156EED2E8BF4 /* GTEPCommonLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTEPCommonLib-dummy.m"; sourceTree = "<group>"; };
-		0BFEEED0738DF5267A4D8E2C02ECAFF6 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extension.swift"; path = "GTEPCommonLib/Classes/UIViewController+Extension.swift"; sourceTree = "<group>"; };
-		0EBE2F34D9963F8186323DDD64F4A1BD /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "GTEPCommonLib/Classes/String+Extension.swift"; sourceTree = "<group>"; };
-		11B1487F143410AD2E04C17AC85B9F53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		17E4349EC05F25437F0E7D7852E29D37 /* GTEPCommonLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTEPCommonLib.debug.xcconfig; sourceTree = "<group>"; };
+		130B395239AD381AB1EACE220595B9D4 /* CustomInitialImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomInitialImageView.swift; path = GTEPCommonLib/Classes/CustomInitialImageView.swift; sourceTree = "<group>"; };
 		19139677401198047CD387665364238F /* Pods-GTEPCommonLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTEPCommonLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		1E047500CAA0D1BD6F60E0F23E3C640B /* Pods-GTEPCommonLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTEPCommonLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		25354ED9A2A7051393FB00A1F4E7F9BF /* CustomGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomGradientView.swift; path = GTEPCommonLib/Classes/CustomGradientView.swift; sourceTree = "<group>"; };
 		2551AAC05101E6643803C3F26A244232 /* Pods-GTEPCommonLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTEPCommonLib_Example-Info.plist"; sourceTree = "<group>"; };
-		283B0A0115CF6C24DA93DC3C3C429740 /* Struct+RandomLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Struct+RandomLocation.swift"; path = "GTEPCommonLib/Classes/Struct+RandomLocation.swift"; sourceTree = "<group>"; };
-		2952EF28DD9BCDDE50C7CFA4C7016A77 /* CustomInitialImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomInitialImageView.swift; path = GTEPCommonLib/Classes/CustomInitialImageView.swift; sourceTree = "<group>"; };
+		29E7892266EA6081978FA94D45E79CF0 /* CustomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomView.swift; path = GTEPCommonLib/Classes/CustomView.swift; sourceTree = "<group>"; };
+		2B5B113648C0B8A2D9B55F18DC0220A2 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extension.swift"; path = "GTEPCommonLib/Classes/UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		2D05928CFD3F2025D11BBECE47CB6F32 /* Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Checkbox.swift; path = GTEPCommonLib/Classes/Checkbox.swift; sourceTree = "<group>"; };
 		2F0EEF6AD4FD7075817C3782995CC86B /* Pods-GTEPCommonLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTEPCommonLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		310CA416AF3F1A6E6BB6E3540BAB63AA /* String+CommonCrypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+CommonCrypto.swift"; path = "GTEPCommonLib/Classes/String+CommonCrypto.swift"; sourceTree = "<group>"; };
-		3575333B9A5284F1E4A914297402E59C /* CustomTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTextField.swift; path = GTEPCommonLib/Classes/CustomTextField.swift; sourceTree = "<group>"; };
+		3267B491EB3E7878A4D2A5ECDDDBA8D3 /* GTEPCommonLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTEPCommonLib-umbrella.h"; sourceTree = "<group>"; };
+		33D7CEE984194090D3CD89A9233ADCE3 /* GTEPCommonLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTEPCommonLib.debug.xcconfig; sourceTree = "<group>"; };
 		364B112329D35E0D19E4AE55151CB394 /* Pods-GTEPCommonLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GTEPCommonLib_Example.modulemap"; sourceTree = "<group>"; };
+		3661F18C3E99E4E8EF61DB25FE70AEB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3B609C860E2FAA7693BA215E87D33934 /* Pods-GTEPCommonLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTEPCommonLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4903D97EE46C9F19789B826491C60900 /* CustomButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomButton.swift; path = GTEPCommonLib/Classes/CustomButton.swift; sourceTree = "<group>"; };
-		4BDA69F47F5DFEEDE8AFC6B82E0F40E1 /* CustomView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomView.swift; path = GTEPCommonLib/Classes/CustomView.swift; sourceTree = "<group>"; };
+		3CD220287C50F198549E06825141E3B7 /* DatePickerDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerDialog.swift; path = GTEPCommonLib/Classes/DatePickerDialog.swift; sourceTree = "<group>"; };
+		4672EABFED17EC97872435F098BCDE6D /* GTEPCommonLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GTEPCommonLib-Info.plist"; sourceTree = "<group>"; };
+		4864DCAE3805B483E1F38481954D0936 /* FontsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontsManager.swift; path = GTEPCommonLib/Classes/FontsManager.swift; sourceTree = "<group>"; };
 		4C928240A3E67BE35984AE0B47DF6C4E /* Pods-GTEPCommonLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTEPCommonLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		51B61FB02D7AD60EEBDC1AE6AF232C40 /* Common+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Common+Extension.swift"; path = "GTEPCommonLib/Classes/Common+Extension.swift"; sourceTree = "<group>"; };
-		556D7105540CA967742960F58B9ECEB2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		557A79D9F9DFCB94D316D1650E874D16 /* GTEPCommonLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTEPCommonLib.release.xcconfig; sourceTree = "<group>"; };
-		5778FA4E724596F42EDF1E6CA8EB9F0D /* GTEPCommonLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTEPCommonLib-prefix.pch"; sourceTree = "<group>"; };
-		5A1EF5FAD513EA9EA9676B3AE9761787 /* CustomTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTextView.swift; path = GTEPCommonLib/Classes/CustomTextView.swift; sourceTree = "<group>"; };
-		5A762DD7D6436DC2C1FDA2E34735C4FD /* FontsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontsManager.swift; path = GTEPCommonLib/Classes/FontsManager.swift; sourceTree = "<group>"; };
+		55E0FD71B39A4D5EE6364F0A16037EFA /* UITextfield+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextfield+String.swift"; path = "GTEPCommonLib/Classes/UITextfield+String.swift"; sourceTree = "<group>"; };
 		5B8B3D2CEB1B9843C20D089AC3114CDE /* Pods-GTEPCommonLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTEPCommonLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		60D69E5EA92194FE42F0C7072034F76D /* GTEPCommonLib-GTEPCommonLib */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GTEPCommonLib-GTEPCommonLib"; path = GTEPCommonLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C4187886C0E22349DF894A06D8DF23 /* CustomMargin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomMargin.swift; path = GTEPCommonLib/Classes/CustomMargin.swift; sourceTree = "<group>"; };
 		673633A5A3D1B9A2CAE0283B4ADE83FA /* Pods-GTEPCommonLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTEPCommonLib_Example-dummy.m"; sourceTree = "<group>"; };
-		690956BA6A2CE883EC5807D7C84DA542 /* GTEPCommonLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTEPCommonLib.modulemap; sourceTree = "<group>"; };
-		699DAC07F8D4D738EE91953CA69CAE0A /* GTEPCommonLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GTEPCommonLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6C6E557536CE26A3FB1E05CA1F43CB59 /* UIDevice+UIScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+UIScreen.swift"; path = "GTEPCommonLib/Classes/UIDevice+UIScreen.swift"; sourceTree = "<group>"; };
+		6CA5143F914C5A243241F77338265FF8 /* String+CommonCrypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+CommonCrypto.swift"; path = "GTEPCommonLib/Classes/String+CommonCrypto.swift"; sourceTree = "<group>"; };
+		6CCE341A6421F6D045815BF1972BA2AB /* CustomTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTextField.swift; path = GTEPCommonLib/Classes/CustomTextField.swift; sourceTree = "<group>"; };
+		6F1FC897CF25B68DB109A8D9387A7EE1 /* Struct+RandomLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Struct+RandomLocation.swift"; path = "GTEPCommonLib/Classes/Struct+RandomLocation.swift"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		783F92DF3B037052F52F3C286E50C049 /* CustomTabbarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTabbarView.swift; path = GTEPCommonLib/Classes/CustomTabbarView.swift; sourceTree = "<group>"; };
 		7FEA31FC0BDB36F604F02339AB696204 /* Pods-GTEPCommonLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTEPCommonLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		88AABB5E68CDE33562F5553B7FE04D07 /* InteractivePopRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractivePopRecognizer.swift; path = GTEPCommonLib/Classes/InteractivePopRecognizer.swift; sourceTree = "<group>"; };
-		95F083A7B62D3692D92462D804A2F0C2 /* UITextfield+String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextfield+String.swift"; path = "GTEPCommonLib/Classes/UITextfield+String.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		882EF76284816DE7F840D05F4F1C1523 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "GTEPCommonLib/Classes/String+Extension.swift"; sourceTree = "<group>"; };
+		915153894DCFFA04770941CE425856F7 /* GTEPCommonLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GTEPCommonLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		933DCB0F50EBD0D7A9135B8DFF10C8F8 /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Extension.swift"; path = "GTEPCommonLib/Classes/Date+Extension.swift"; sourceTree = "<group>"; };
+		93B54F260A5AA115F26FBE248B171A2A /* CustomButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomButton.swift; path = GTEPCommonLib/Classes/CustomButton.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EAD17D7BB072A074A2DEA2E9C1DDD6F /* GTEPCommonLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GTEPCommonLib-dummy.m"; sourceTree = "<group>"; };
+		A128AABA4ABF1ABB05F1A310B794368D /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINavigationController+Extension.swift"; path = "GTEPCommonLib/Classes/UINavigationController+Extension.swift"; sourceTree = "<group>"; };
 		A1FFAF521B677129B97359023D2C9504 /* GTEPCommonLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GTEPCommonLib; path = GTEPCommonLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5770B3838ECC9CB08F8EE45FB29B9E3 /* UIColor+HexRGB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+HexRGB.swift"; path = "GTEPCommonLib/Classes/UIColor+HexRGB.swift"; sourceTree = "<group>"; };
 		A875FC3BCD16D6E0B95FDC58DF979DE1 /* Pods-GTEPCommonLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GTEPCommonLib_Tests.modulemap"; sourceTree = "<group>"; };
-		AC1FCCB4799FC928EDBDC185088F9E46 /* CustomLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomLabel.swift; path = GTEPCommonLib/Classes/CustomLabel.swift; sourceTree = "<group>"; };
-		AEEB6C498489949C993EA653A2C00A44 /* Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Checkbox.swift; path = GTEPCommonLib/Classes/Checkbox.swift; sourceTree = "<group>"; };
-		B2E87901F984784B4A5808D38802FE9A /* GTEPCommonLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GTEPCommonLib-Info.plist"; sourceTree = "<group>"; };
 		B42E4934E78A18EF63717F6B0F68B9B8 /* Pods-GTEPCommonLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTEPCommonLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B64BCF768AD887B4E621FAF835CE524B /* CustomMargin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomMargin.swift; path = GTEPCommonLib/Classes/CustomMargin.swift; sourceTree = "<group>"; };
-		C2869125D124D827069526F16EC8CFEE /* CustomImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomImage.swift; path = GTEPCommonLib/Classes/CustomImage.swift; sourceTree = "<group>"; };
+		B47CC3B2C5B27B3B78A6C03C6F9D7194 /* CustomCameraSquareView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomCameraSquareView.swift; path = GTEPCommonLib/Classes/CustomCameraSquareView.swift; sourceTree = "<group>"; };
+		BAAF979AA562EA06A79A95C01CFC339A /* Roboto-Medium.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Medium.ttf"; path = "GTEPCommonLib/Assets/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		BE314F585D378877B770971F7073F500 /* CustomLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomLabel.swift; path = GTEPCommonLib/Classes/CustomLabel.swift; sourceTree = "<group>"; };
 		C43F712C6E10BF88B3A872C65F638444 /* Pods-GTEPCommonLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTEPCommonLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CE6EF9E33BE36DB4953C74D9CDE5B199 /* Bundle+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Extension.swift"; path = "GTEPCommonLib/Classes/Bundle+Extension.swift"; sourceTree = "<group>"; };
+		D66063E33A2B7D75D784411C30247ADE /* GTEPCommonLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTEPCommonLib-prefix.pch"; sourceTree = "<group>"; };
+		D6C576CD817F622C1AE42D836E1A5F57 /* AppUIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppUIColor.swift; path = GTEPCommonLib/Classes/AppUIColor.swift; sourceTree = "<group>"; };
 		D84B78EA5D36D3F1AB0D801DA0AE3B43 /* Pods-GTEPCommonLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTEPCommonLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D96D888E4054E67A5CE7917FB809AED5 /* UIDevice+UIScreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+UIScreen.swift"; path = "GTEPCommonLib/Classes/UIDevice+UIScreen.swift"; sourceTree = "<group>"; };
-		DE490B4FC4D4852D62B6A5D2262055B7 /* UIColor+HexRGB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+HexRGB.swift"; path = "GTEPCommonLib/Classes/UIColor+HexRGB.swift"; sourceTree = "<group>"; };
-		E23AE8668EAD7C923A6E78978DDF3639 /* GTEPCommonLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GTEPCommonLib-umbrella.h"; sourceTree = "<group>"; };
-		E3C1AFD3641F2ECAE5B258B20B96C816 /* Bundle+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Extension.swift"; path = "GTEPCommonLib/Classes/Bundle+Extension.swift"; sourceTree = "<group>"; };
-		E62C816306FAB61CD2FBDFCAF49FBA1C /* CustomCameraSquareView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomCameraSquareView.swift; path = GTEPCommonLib/Classes/CustomCameraSquareView.swift; sourceTree = "<group>"; };
-		EB2C55C4F36805CF890C5B19A4FDC4F8 /* CustomGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomGradientView.swift; path = GTEPCommonLib/Classes/CustomGradientView.swift; sourceTree = "<group>"; };
-		EB4FE3F5790AF21EEF20A3302B3A516C /* AppUIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppUIColor.swift; path = GTEPCommonLib/Classes/AppUIColor.swift; sourceTree = "<group>"; };
+		D9D9CF933AA45D97969D37C33C3AC000 /* Roboto-Light.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Light.ttf"; path = "GTEPCommonLib/Assets/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		DA4C32F38DB940E92006355E8A7CF20D /* Roboto-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Regular.ttf"; path = "GTEPCommonLib/Assets/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		DF081B8E27982792B7C4BC8E7644526C /* Common+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Common+Extension.swift"; path = "GTEPCommonLib/Classes/Common+Extension.swift"; sourceTree = "<group>"; };
+		E06253ED59B059DD5B549CCF2A39A8BD /* CustomTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTextView.swift; path = GTEPCommonLib/Classes/CustomTextView.swift; sourceTree = "<group>"; };
+		E1282288B6F4A964D62607419430D1B9 /* GTEPCommonLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GTEPCommonLib.modulemap; sourceTree = "<group>"; };
+		E29BB9611663AD9EAE4333E2A302DB2E /* GTEPCommonLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GTEPCommonLib.release.xcconfig; sourceTree = "<group>"; };
+		E58A666C5A45348A71FDDB3698C82EC8 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Roboto-Bold.ttf"; path = "GTEPCommonLib/Assets/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		E74B7012313560976881E56D103F7619 /* CustomTabbarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomTabbarView.swift; path = GTEPCommonLib/Classes/CustomTabbarView.swift; sourceTree = "<group>"; };
 		EC61682A16157C5011B682263C3F8AD6 /* Pods-GTEPCommonLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GTEPCommonLib_Tests"; path = Pods_GTEPCommonLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE388EC3B04EDFF6BEA1718DCEBF264 /* CustomImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomImage.swift; path = GTEPCommonLib/Classes/CustomImage.swift; sourceTree = "<group>"; };
 		F19F080D995631A19F50A393D4C5CC45 /* Pods-GTEPCommonLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTEPCommonLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3E3447C11E111BADC22E1BF03F0A7EA /* Pods-GTEPCommonLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GTEPCommonLib_Example"; path = Pods_GTEPCommonLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F80015D81A21D1056DF1F268B1AB11F8 /* ResourceBundle-GTEPCommonLib-GTEPCommonLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GTEPCommonLib-GTEPCommonLib-Info.plist"; sourceTree = "<group>"; };
-		F902C8F961C00C566FF740D5E280A330 /* DatePickerDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerDialog.swift; path = GTEPCommonLib/Classes/DatePickerDialog.swift; sourceTree = "<group>"; };
+		F42B42B6745AD08D2F400C4A1946757A /* InteractivePopRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractivePopRecognizer.swift; path = GTEPCommonLib/Classes/InteractivePopRecognizer.swift; sourceTree = "<group>"; };
+		F8D96E637DA240D341671D4F297C073E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		FA5CEBD3FA54B132F6301181AF665345 /* Pods-GTEPCommonLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTEPCommonLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FC07F59A0677E10469B59B7E6EF718DD /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Extension.swift"; path = "GTEPCommonLib/Classes/Date+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1F5FBD1EAF9BAF9E845551F6262EBA50 /* Frameworks */ = {
+		0B8B92157599E1C8BC41BF8F191F8BAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		559F46A0A086BCDC15CEAB70066E3B44 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED7C9A18B8A260DC4F5CAB9638EACDA0 /* Foundation.framework in Frameworks */,
+				428B382007D32B0C3816B787345968D7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +160,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		248CAA8C03C113E21F17A5C9681686FC /* GTEPCommonLib */ = {
+			isa = PBXGroup;
+			children = (
+				D6C576CD817F622C1AE42D836E1A5F57 /* AppUIColor.swift */,
+				CE6EF9E33BE36DB4953C74D9CDE5B199 /* Bundle+Extension.swift */,
+				2D05928CFD3F2025D11BBECE47CB6F32 /* Checkbox.swift */,
+				DF081B8E27982792B7C4BC8E7644526C /* Common+Extension.swift */,
+				93B54F260A5AA115F26FBE248B171A2A /* CustomButton.swift */,
+				B47CC3B2C5B27B3B78A6C03C6F9D7194 /* CustomCameraSquareView.swift */,
+				25354ED9A2A7051393FB00A1F4E7F9BF /* CustomGradientView.swift */,
+				EFE388EC3B04EDFF6BEA1718DCEBF264 /* CustomImage.swift */,
+				130B395239AD381AB1EACE220595B9D4 /* CustomInitialImageView.swift */,
+				BE314F585D378877B770971F7073F500 /* CustomLabel.swift */,
+				65C4187886C0E22349DF894A06D8DF23 /* CustomMargin.swift */,
+				E74B7012313560976881E56D103F7619 /* CustomTabbarView.swift */,
+				6CCE341A6421F6D045815BF1972BA2AB /* CustomTextField.swift */,
+				E06253ED59B059DD5B549CCF2A39A8BD /* CustomTextView.swift */,
+				29E7892266EA6081978FA94D45E79CF0 /* CustomView.swift */,
+				933DCB0F50EBD0D7A9135B8DFF10C8F8 /* Date+Extension.swift */,
+				3CD220287C50F198549E06825141E3B7 /* DatePickerDialog.swift */,
+				4864DCAE3805B483E1F38481954D0936 /* FontsManager.swift */,
+				F42B42B6745AD08D2F400C4A1946757A /* InteractivePopRecognizer.swift */,
+				E58A666C5A45348A71FDDB3698C82EC8 /* Roboto-Bold.ttf */,
+				D9D9CF933AA45D97969D37C33C3AC000 /* Roboto-Light.ttf */,
+				BAAF979AA562EA06A79A95C01CFC339A /* Roboto-Medium.ttf */,
+				DA4C32F38DB940E92006355E8A7CF20D /* Roboto-Regular.ttf */,
+				6CA5143F914C5A243241F77338265FF8 /* String+CommonCrypto.swift */,
+				882EF76284816DE7F840D05F4F1C1523 /* String+Extension.swift */,
+				6F1FC897CF25B68DB109A8D9387A7EE1 /* Struct+RandomLocation.swift */,
+				A5770B3838ECC9CB08F8EE45FB29B9E3 /* UIColor+HexRGB.swift */,
+				6C6E557536CE26A3FB1E05CA1F43CB59 /* UIDevice+UIScreen.swift */,
+				A128AABA4ABF1ABB05F1A310B794368D /* UINavigationController+Extension.swift */,
+				55E0FD71B39A4D5EE6364F0A16037EFA /* UITextfield+String.swift */,
+				2B5B113648C0B8A2D9B55F18DC0220A2 /* UIViewController+Extension.swift */,
+				3C383701C0715C4F65B04E28765F1440 /* Pod */,
+				D31660F3B44EE4C7B275BA0854896E23 /* Support Files */,
+			);
+			name = GTEPCommonLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3C383701C0715C4F65B04E28765F1440 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				915153894DCFFA04770941CE425856F7 /* GTEPCommonLib.podspec */,
+				F8D96E637DA240D341671D4F297C073E /* LICENSE */,
+				3661F18C3E99E4E8EF61DB25FE70AEB5 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,20 +236,14 @@
 			path = "Target Support Files/Pods-GTEPCommonLib_Example";
 			sourceTree = "<group>";
 		};
-		A408157AA05D9ACAC30C7E37F38366BB /* Support Files */ = {
+		8DCB8FC1CD2DB8F5F058AD57957684A2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				690956BA6A2CE883EC5807D7C84DA542 /* GTEPCommonLib.modulemap */,
-				0AF49BE2FF1D72E66FC8156EED2E8BF4 /* GTEPCommonLib-dummy.m */,
-				B2E87901F984784B4A5808D38802FE9A /* GTEPCommonLib-Info.plist */,
-				5778FA4E724596F42EDF1E6CA8EB9F0D /* GTEPCommonLib-prefix.pch */,
-				E23AE8668EAD7C923A6E78978DDF3639 /* GTEPCommonLib-umbrella.h */,
-				17E4349EC05F25437F0E7D7852E29D37 /* GTEPCommonLib.debug.xcconfig */,
-				557A79D9F9DFCB94D316D1650E874D16 /* GTEPCommonLib.release.xcconfig */,
-				F80015D81A21D1056DF1F268B1AB11F8 /* ResourceBundle-GTEPCommonLib-GTEPCommonLib-Info.plist */,
+				A1FFAF521B677129B97359023D2C9504 /* GTEPCommonLib */,
+				F3E3447C11E111BADC22E1BF03F0A7EA /* Pods-GTEPCommonLib_Example */,
+				EC61682A16157C5011B682263C3F8AD6 /* Pods-GTEPCommonLib_Tests */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GTEPCommonLib";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		AB3877CCC0D11E8BB8799BB1F94807DC /* Targets Support Files */ = {
@@ -219,68 +255,21 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AD366079603D444B8BF091663C93BF07 /* Development Pods */ = {
+		B98CAF3FDAC5A005A6C8D3B6BAF463EE /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB339D1FBD066A4E9489D20675F5BD69 /* GTEPCommonLib */,
+				248CAA8C03C113E21F17A5C9681686FC /* GTEPCommonLib */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		BFE05706C8085EEE45FE84777AA59456 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				699DAC07F8D4D738EE91953CA69CAE0A /* GTEPCommonLib.podspec */,
-				11B1487F143410AD2E04C17AC85B9F53 /* LICENSE */,
-				556D7105540CA967742960F58B9ECEB2 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		CB339D1FBD066A4E9489D20675F5BD69 /* GTEPCommonLib */ = {
-			isa = PBXGroup;
-			children = (
-				EB4FE3F5790AF21EEF20A3302B3A516C /* AppUIColor.swift */,
-				E3C1AFD3641F2ECAE5B258B20B96C816 /* Bundle+Extension.swift */,
-				AEEB6C498489949C993EA653A2C00A44 /* Checkbox.swift */,
-				51B61FB02D7AD60EEBDC1AE6AF232C40 /* Common+Extension.swift */,
-				4903D97EE46C9F19789B826491C60900 /* CustomButton.swift */,
-				E62C816306FAB61CD2FBDFCAF49FBA1C /* CustomCameraSquareView.swift */,
-				EB2C55C4F36805CF890C5B19A4FDC4F8 /* CustomGradientView.swift */,
-				C2869125D124D827069526F16EC8CFEE /* CustomImage.swift */,
-				2952EF28DD9BCDDE50C7CFA4C7016A77 /* CustomInitialImageView.swift */,
-				AC1FCCB4799FC928EDBDC185088F9E46 /* CustomLabel.swift */,
-				B64BCF768AD887B4E621FAF835CE524B /* CustomMargin.swift */,
-				783F92DF3B037052F52F3C286E50C049 /* CustomTabbarView.swift */,
-				3575333B9A5284F1E4A914297402E59C /* CustomTextField.swift */,
-				5A1EF5FAD513EA9EA9676B3AE9761787 /* CustomTextView.swift */,
-				4BDA69F47F5DFEEDE8AFC6B82E0F40E1 /* CustomView.swift */,
-				FC07F59A0677E10469B59B7E6EF718DD /* Date+Extension.swift */,
-				F902C8F961C00C566FF740D5E280A330 /* DatePickerDialog.swift */,
-				5A762DD7D6436DC2C1FDA2E34735C4FD /* FontsManager.swift */,
-				88AABB5E68CDE33562F5553B7FE04D07 /* InteractivePopRecognizer.swift */,
-				310CA416AF3F1A6E6BB6E3540BAB63AA /* String+CommonCrypto.swift */,
-				0EBE2F34D9963F8186323DDD64F4A1BD /* String+Extension.swift */,
-				283B0A0115CF6C24DA93DC3C3C429740 /* Struct+RandomLocation.swift */,
-				DE490B4FC4D4852D62B6A5D2262055B7 /* UIColor+HexRGB.swift */,
-				D96D888E4054E67A5CE7917FB809AED5 /* UIDevice+UIScreen.swift */,
-				05BFB1A1AC644E0D35A99FABE05C37AD /* UINavigationController+Extension.swift */,
-				95F083A7B62D3692D92462D804A2F0C2 /* UITextfield+String.swift */,
-				0BFEEED0738DF5267A4D8E2C02ECAFF6 /* UIViewController+Extension.swift */,
-				BFE05706C8085EEE45FE84777AA59456 /* Pod */,
-				A408157AA05D9ACAC30C7E37F38366BB /* Support Files */,
-			);
-			name = GTEPCommonLib;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AD366079603D444B8BF091663C93BF07 /* Development Pods */,
+				B98CAF3FDAC5A005A6C8D3B6BAF463EE /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				EF5A5F96441238417F3AE4AE616D29D5 /* Products */,
+				8DCB8FC1CD2DB8F5F058AD57957684A2 /* Products */,
 				AB3877CCC0D11E8BB8799BB1F94807DC /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -291,6 +280,21 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D31660F3B44EE4C7B275BA0854896E23 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1282288B6F4A964D62607419430D1B9 /* GTEPCommonLib.modulemap */,
+				9EAD17D7BB072A074A2DEA2E9C1DDD6F /* GTEPCommonLib-dummy.m */,
+				4672EABFED17EC97872435F098BCDE6D /* GTEPCommonLib-Info.plist */,
+				D66063E33A2B7D75D784411C30247ADE /* GTEPCommonLib-prefix.pch */,
+				3267B491EB3E7878A4D2A5ECDDDBA8D3 /* GTEPCommonLib-umbrella.h */,
+				33D7CEE984194090D3CD89A9233ADCE3 /* GTEPCommonLib.debug.xcconfig */,
+				E29BB9611663AD9EAE4333E2A302DB2E /* GTEPCommonLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GTEPCommonLib";
 			sourceTree = "<group>";
 		};
 		E5F4CB6AFD789E480AA72D4907D2261C /* Pods-GTEPCommonLib_Tests */ = {
@@ -309,28 +313,9 @@
 			path = "Target Support Files/Pods-GTEPCommonLib_Tests";
 			sourceTree = "<group>";
 		};
-		EF5A5F96441238417F3AE4AE616D29D5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A1FFAF521B677129B97359023D2C9504 /* GTEPCommonLib */,
-				60D69E5EA92194FE42F0C7072034F76D /* GTEPCommonLib-GTEPCommonLib */,
-				F3E3447C11E111BADC22E1BF03F0A7EA /* Pods-GTEPCommonLib_Example */,
-				EC61682A16157C5011B682263C3F8AD6 /* Pods-GTEPCommonLib_Tests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1B883B0F319FF8E770D07EADE15EDAB2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CA05B379591F90BC5602333FD482358 /* GTEPCommonLib-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		32D6BBDE3E0BD2D55A723DAC1B7B46F7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,6 +329,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1F9D62F4CF0831D4C27FEA42C2762FF /* Pods-GTEPCommonLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C05782BFCDE51A336F33F6F18DF186C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA860D81149601C5A406D465F1BE249 /* GTEPCommonLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,29 +355,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				0E55E83943F7BE62FC1CCB7FA1A4F4E5 /* PBXTargetDependency */,
+				679D7FC1B19F8766E97B3B064232CE00 /* PBXTargetDependency */,
 			);
 			name = "Pods-GTEPCommonLib_Tests";
 			productName = Pods_GTEPCommonLib_Tests;
 			productReference = EC61682A16157C5011B682263C3F8AD6 /* Pods-GTEPCommonLib_Tests */;
 			productType = "com.apple.product-type.framework";
-		};
-		572EDB54E8FADD1CEFB38E393ECC4EB0 /* GTEPCommonLib-GTEPCommonLib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3E6278757C59D169FFD0F9006A645890 /* Build configuration list for PBXNativeTarget "GTEPCommonLib-GTEPCommonLib" */;
-			buildPhases = (
-				EA7AF02C99B43572126F9AAC65242B5B /* Sources */,
-				1F5FBD1EAF9BAF9E845551F6262EBA50 /* Frameworks */,
-				2D858B4EAF0F20B720350DA07567A60C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "GTEPCommonLib-GTEPCommonLib";
-			productName = GTEPCommonLib;
-			productReference = 60D69E5EA92194FE42F0C7072034F76D /* GTEPCommonLib-GTEPCommonLib */;
-			productType = "com.apple.product-type.bundle";
 		};
 		5C5031A616ED461CB5A0C0F3E064C18A /* Pods-GTEPCommonLib_Example */ = {
 			isa = PBXNativeTarget;
@@ -398,7 +374,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				ACF1609237FCFC3A02F6771BAD6C948C /* PBXTargetDependency */,
+				5A667F14811E5EA5B08FFEF06C4094FD /* PBXTargetDependency */,
 			);
 			name = "Pods-GTEPCommonLib_Example";
 			productName = Pods_GTEPCommonLib_Example;
@@ -407,17 +383,16 @@
 		};
 		E76C8D368F7496C8AA756068D8372A5F /* GTEPCommonLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C698CA7FE09BEEEA2AD90D55EE8512A /* Build configuration list for PBXNativeTarget "GTEPCommonLib" */;
+			buildConfigurationList = 558F2B17CE4A061AAA1187E0C1C088C4 /* Build configuration list for PBXNativeTarget "GTEPCommonLib" */;
 			buildPhases = (
-				1B883B0F319FF8E770D07EADE15EDAB2 /* Headers */,
-				3E4C08645B44893B5031EB883A23C499 /* Sources */,
-				559F46A0A086BCDC15CEAB70066E3B44 /* Frameworks */,
-				580CB2D09A4EE95315805BF14791FD4E /* Resources */,
+				C05782BFCDE51A336F33F6F18DF186C0 /* Headers */,
+				DADB6913E4FEDA69853885045A7A945D /* Sources */,
+				0B8B92157599E1C8BC41BF8F191F8BAD /* Frameworks */,
+				171361FF04E497AEFA4F27E6F76DBAFA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3B35542DA04D9AB9C4AFE86EE47040AB /* PBXTargetDependency */,
 			);
 			name = GTEPCommonLib;
 			productName = GTEPCommonLib;
@@ -442,12 +417,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = EF5A5F96441238417F3AE4AE616D29D5 /* Products */;
+			productRefGroup = 8DCB8FC1CD2DB8F5F058AD57957684A2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E76C8D368F7496C8AA756068D8372A5F /* GTEPCommonLib */,
-				572EDB54E8FADD1CEFB38E393ECC4EB0 /* GTEPCommonLib-GTEPCommonLib */,
 				5C5031A616ED461CB5A0C0F3E064C18A /* Pods-GTEPCommonLib_Example */,
 				3F05312164E18678D6BA922EE7541ECE /* Pods-GTEPCommonLib_Tests */,
 			);
@@ -455,18 +429,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2D858B4EAF0F20B720350DA07567A60C /* Resources */ = {
+		171361FF04E497AEFA4F27E6F76DBAFA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		580CB2D09A4EE95315805BF14791FD4E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6E61C214D4629C5C4B2DAEE674D0A7A /* GTEPCommonLib-GTEPCommonLib in Resources */,
+				6CD0C629F1E3483E23EB667F271B644B /* Roboto-Bold.ttf in Resources */,
+				0825405EE89D0FB83CB421D8B959EC91 /* Roboto-Light.ttf in Resources */,
+				6308AB582DE362BFB8447B014770B809 /* Roboto-Medium.ttf in Resources */,
+				A1F099AEF00CCC84A2402C6D84572186 /* Roboto-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,46 +457,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3E4C08645B44893B5031EB883A23C499 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A98D6B731C1BFA4AD272FDFACB568CDE /* AppUIColor.swift in Sources */,
-				5B1B01DEFB7CBE6D5E3708D5292C069B /* Bundle+Extension.swift in Sources */,
-				71BBD5DC57DEB55A64E33FE7562F1A8C /* Checkbox.swift in Sources */,
-				B0E7B6F9D98AD37FB5553E72DE1113D8 /* Common+Extension.swift in Sources */,
-				EF9D8DC1D9D81F7FFC109C1D4533D062 /* CustomButton.swift in Sources */,
-				5D1F0CE44D90CE3BB358B0B642E9170A /* CustomCameraSquareView.swift in Sources */,
-				774F71B37FC4A8CD62683E9E85ABF908 /* CustomGradientView.swift in Sources */,
-				75E158FE9AA9AD0C2C23AAE53FBD4334 /* CustomImage.swift in Sources */,
-				00DA46C1D0E5632BE52CD85D089B381E /* CustomInitialImageView.swift in Sources */,
-				F75E51ED3039FA3778F1AA6D8EF842F0 /* CustomLabel.swift in Sources */,
-				962430DA33A68FF2B75B120409A0F178 /* CustomMargin.swift in Sources */,
-				7BFF6176B67E762ABFCEAEC3ADBA71C3 /* CustomTabbarView.swift in Sources */,
-				BDD2B85CA7234B7E6F1F96F75F41338A /* CustomTextField.swift in Sources */,
-				D22708ECC9E49F3E12279C6259C576F1 /* CustomTextView.swift in Sources */,
-				CF16F1197B4B45FF0EEB7EAC2B434AB3 /* CustomView.swift in Sources */,
-				D17A7BC31E730758233AD7E4F074DA8C /* Date+Extension.swift in Sources */,
-				6137CF6BA36FD5CABFFC8838F7E68B65 /* DatePickerDialog.swift in Sources */,
-				30E7AC1EC04F98BB2C3A10FB5AFA5581 /* FontsManager.swift in Sources */,
-				4B7747BDFA83D5D482FD146FFA244B14 /* GTEPCommonLib-dummy.m in Sources */,
-				08BA2D41F0075D2D2515FBBBD56337C7 /* InteractivePopRecognizer.swift in Sources */,
-				60517E8525D44CAE3C2D604EACE59C93 /* String+CommonCrypto.swift in Sources */,
-				3F921D66E5BC59973A1898F0467C07D4 /* String+Extension.swift in Sources */,
-				56EB965B601393D0FE74EE9FC992A2EE /* Struct+RandomLocation.swift in Sources */,
-				79F660F390B648D5AF458B8DDA1522B6 /* UIColor+HexRGB.swift in Sources */,
-				49D193056477F3FC0E1F153ABA384441 /* UIDevice+UIScreen.swift in Sources */,
-				2FA2F16D2BD110185DEB4035AE031F02 /* UINavigationController+Extension.swift in Sources */,
-				2C5FB91778E7590ED904A9B8AB11A91E /* UITextfield+String.swift in Sources */,
-				4F79724CF56E5D7C442D8A0C3F450C63 /* UIViewController+Extension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A4B3EA22CA1F8EC392E5012B720D4730 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8132F34EACBED355BD8036979229D0FE /* Pods-GTEPCommonLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADB6913E4FEDA69853885045A7A945D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8939ACD830CDB752FB6DE4BCF9ACBC33 /* AppUIColor.swift in Sources */,
+				9AC9E354A86166A208DF211E14EB18A2 /* Bundle+Extension.swift in Sources */,
+				8D899E5B28148CB67176CDD506B4131D /* Checkbox.swift in Sources */,
+				65909FF5D2A385A9FE8FD6E95DF2C66B /* Common+Extension.swift in Sources */,
+				76BF545D980A0082CE35C78984586FE3 /* CustomButton.swift in Sources */,
+				D8C8A531715123309167FBAF4E8AAAB0 /* CustomCameraSquareView.swift in Sources */,
+				7783A570930362CFE3DFA03271B974B6 /* CustomGradientView.swift in Sources */,
+				CF6380BE267A809B6B6D3B39D497D026 /* CustomImage.swift in Sources */,
+				707515A9F4D8FA607458B14784C43131 /* CustomInitialImageView.swift in Sources */,
+				8B0F09EC1D45F6D3FC1ACFC4B9E52CB5 /* CustomLabel.swift in Sources */,
+				3CEFF386AD73D8278ECE277CC7CB27B7 /* CustomMargin.swift in Sources */,
+				A80C44B7270ADD41D569EF896D5C862A /* CustomTabbarView.swift in Sources */,
+				2BA77DF4F3693F98AC6BACFD7D77C0D5 /* CustomTextField.swift in Sources */,
+				D090E0EC5388752D3B0D9B4D55989EFE /* CustomTextView.swift in Sources */,
+				C6FC8F2B32496C10A6DE1A1B2DDBA940 /* CustomView.swift in Sources */,
+				D8352620FEB51743E950762A0E661256 /* Date+Extension.swift in Sources */,
+				81FC0E623AA6C4A52AA5CE4841791C1C /* DatePickerDialog.swift in Sources */,
+				8E2C50671F6C0D5ED3C3C23548CDA275 /* FontsManager.swift in Sources */,
+				88D9ABCBD904AC6756EF43695C54A5B8 /* GTEPCommonLib-dummy.m in Sources */,
+				E9ADCB65E3ECA7F4FCE968B40B879F57 /* InteractivePopRecognizer.swift in Sources */,
+				468524809FE5D55D4F2C970371A5C69D /* String+CommonCrypto.swift in Sources */,
+				FA5F8CC97A1C8183890AE0FEB669A3F9 /* String+Extension.swift in Sources */,
+				8EA9460114B7363508F36CAF47628FF3 /* Struct+RandomLocation.swift in Sources */,
+				F33D0F11A3C9CA16A93CA3F200A8ACA0 /* UIColor+HexRGB.swift in Sources */,
+				0294E97C2A8CE27AB05C59A156E8A82A /* UIDevice+UIScreen.swift in Sources */,
+				F26FB7EA511BC6DAD5C60FE779E0FA09 /* UINavigationController+Extension.swift in Sources */,
+				230E6038EE54E55F21ABB718DCF4C02B /* UITextfield+String.swift in Sources */,
+				11DB094C3F4C7369B18545D5C26D1A93 /* UIViewController+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,40 +508,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA7AF02C99B43572126F9AAC65242B5B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0E55E83943F7BE62FC1CCB7FA1A4F4E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-GTEPCommonLib_Example";
-			target = 5C5031A616ED461CB5A0C0F3E064C18A /* Pods-GTEPCommonLib_Example */;
-			targetProxy = 416718A09BCB7A27FB62D2BA85618419 /* PBXContainerItemProxy */;
-		};
-		3B35542DA04D9AB9C4AFE86EE47040AB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "GTEPCommonLib-GTEPCommonLib";
-			target = 572EDB54E8FADD1CEFB38E393ECC4EB0 /* GTEPCommonLib-GTEPCommonLib */;
-			targetProxy = 1CB5C574F73D6DBC1B4173792516E029 /* PBXContainerItemProxy */;
-		};
-		ACF1609237FCFC3A02F6771BAD6C948C /* PBXTargetDependency */ = {
+		5A667F14811E5EA5B08FFEF06C4094FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GTEPCommonLib;
 			target = E76C8D368F7496C8AA756068D8372A5F /* GTEPCommonLib */;
-			targetProxy = 0BBC2115D951239AD417E72E3D9C76A7 /* PBXContainerItemProxy */;
+			targetProxy = 50C49B0302CBC57E4949EC3666AA2880 /* PBXContainerItemProxy */;
+		};
+		679D7FC1B19F8766E97B3B064232CE00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GTEPCommonLib_Example";
+			target = 5C5031A616ED461CB5A0C0F3E064C18A /* Pods-GTEPCommonLib_Example */;
+			targetProxy = B0BAF537EF346D96F6F119C95CA8C990 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0091E46776522860928BDDAEC3E6E4D4 /* Release */ = {
+		0AD852634ACD25651ED834FD13420179 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 557A79D9F9DFCB94D316D1650E874D16 /* GTEPCommonLib.release.xcconfig */;
+			baseConfigurationReference = E29BB9611663AD9EAE4333E2A302DB2E /* GTEPCommonLib.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -637,9 +594,9 @@
 			};
 			name = Release;
 		};
-		20B508B7C2ECB8FC262405E997BF8D6E /* Debug */ = {
+		5D2951D7A081B68A27E9B49926C3C588 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17E4349EC05F25437F0E7D7852E29D37 /* GTEPCommonLib.debug.xcconfig */;
+			baseConfigurationReference = 33D7CEE984194090D3CD89A9233ADCE3 /* GTEPCommonLib.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -666,22 +623,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		50B7748D0418BB3B760739644E05306A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17E4349EC05F25437F0E7D7852E29D37 /* GTEPCommonLib.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GTEPCommonLib";
-				IBSC_MODULE = GTEPCommonLib;
-				INFOPLIST_FILE = "Target Support Files/GTEPCommonLib/ResourceBundle-GTEPCommonLib-GTEPCommonLib-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = GTEPCommonLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -740,7 +681,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -915,22 +857,6 @@
 			};
 			name = Debug;
 		};
-		D1E90D26BCD0DF98AFDA62F5434C8CBF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 557A79D9F9DFCB94D316D1650E874D16 /* GTEPCommonLib.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GTEPCommonLib";
-				IBSC_MODULE = GTEPCommonLib;
-				INFOPLIST_FILE = "Target Support Files/GTEPCommonLib/ResourceBundle-GTEPCommonLib-GTEPCommonLib-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = GTEPCommonLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -939,15 +865,6 @@
 			buildConfigurations = (
 				B4C1EF53613134F01C216866BA2A0A7E /* Debug */,
 				ACA0B66F6A8D482CC5F25E71CDFBF5B3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3E6278757C59D169FFD0F9006A645890 /* Build configuration list for PBXNativeTarget "GTEPCommonLib-GTEPCommonLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				50B7748D0418BB3B760739644E05306A /* Debug */,
-				D1E90D26BCD0DF98AFDA62F5434C8CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -961,11 +878,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C698CA7FE09BEEEA2AD90D55EE8512A /* Build configuration list for PBXNativeTarget "GTEPCommonLib" */ = {
+		558F2B17CE4A061AAA1187E0C1C088C4 /* Build configuration list for PBXNativeTarget "GTEPCommonLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20B508B7C2ECB8FC262405E997BF8D6E /* Debug */,
-				0091E46776522860928BDDAEC3E6E4D4 /* Release */,
+				5D2951D7A081B68A27E9B49926C3C588 /* Debug */,
+				0AD852634ACD25651ED834FD13420179 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
