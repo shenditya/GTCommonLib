@@ -138,7 +138,7 @@ public extension Data {
     }
 }
 
-extension Date {
+public extension Date {
     
     var millisecondsSince1970:Int64 {
         return Int64((self.timeIntervalSince1970 * 1000.0).rounded())
@@ -152,7 +152,7 @@ extension Date {
 }
 
 
-extension Encodable {
+public extension Encodable {
     func data(using encoder: JSONEncoder = .init()) throws -> Data { try encoder.encode(self) }
     func dictionary(using encoder: JSONEncoder = .init(), options: JSONSerialization.ReadingOptions = []) throws -> [String: Any] {
         try JSONSerialization.jsonObject(with: try data(using: encoder), options: options) as? [String: Any] ?? [:]
